@@ -35,7 +35,12 @@ function App() {
     <>
       <QueryClientProvider client={queryClient}>
         <Suspense fallback={<Loading />}>
-          {location.pathname === "/consulting" ? <HeaderLayout2 /> : <Header />}
+          {/* {location.pathname === "/consulting" ? <HeaderLayout2 /> : <Header />} */}
+          {location.pathname === "/consulting" ? (
+            <HeaderLayout2 />
+          ) : (
+            <HeaderLayout2 />
+          )}
           <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
               <Route index element={<Home />} />

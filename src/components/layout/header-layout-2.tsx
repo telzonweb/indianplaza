@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import SiteLogo from "./site-logo";
 import { DarkModeSwitch } from "../dark-mode-switch";
 import MainNav from "./main-nav";
@@ -50,7 +50,7 @@ const HeaderLayout2 = () => {
           <div className="relative flex w-full items-center justify-end lg:bg-transparent">
             <MainNav items={mainNav} />
             <DarkModeSwitch className="mr-3" />
-            <SiteSearch />
+            {/* <SiteSearch /> */}
             <div className="hidden lg:flex">
               <Offcanvas />
             </div>

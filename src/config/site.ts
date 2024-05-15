@@ -2,91 +2,117 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Margin React",
-  description:
-    "Margin is the React template for Marketing and SEO agencies.",
+  description: "Margin is the React template for Marketing and SEO agencies.",
 };
 
 export const mainNav = [
   {
     title: "Home",
-    items: [
-      {
-        title: "Home Marketing",
-        href: "/",
-        items: [],
-      },
-      {
-        title: "Home SEO Agency",
-        href: "/seo-agency",
-        items: [],
-      },
-      {
-        title: "Home Consulting",
-        href: "/consulting",
-        items: [],
-      },
-    ],
+    href: "/",
+    // items: [
+    //   {
+    //     title: "Home Marketing",
+    //     href: "/",
+    //     items: [],
+    //   },
+    //   {
+    //     title: "Home SEO Agency",
+    //     href: "/seo-agency",
+    //     items: [],
+    //   },
+    //   {
+    //     title: "Home Consulting",
+    //     href: "/consulting",
+    //     items: [],
+    //   },
+    // ],
   },
   {
-    title: "Pages",
-    items: [
-      {
-        title: "About",
-        href: "/about",
-        items: [],
-      },
-      {
-        title: "Services",
-        href: "/services",
-        items: [],
-      },
-      {
-        title: "Pricing",
-        href: "/pricing",
-        items: [],
-      },
-      {
-        title: "Contact",
-        href: "/contact",
-        items: [],
-      },
-      {
-        title: "404",
-        href: "/page-404",
-        items: [],
-      },
-    ],
+    title: "About",
+    href: "/about",
+    // items: [],
   },
   {
-    title: "Projects",
-    items: [
-      {
-        title: "Projects Listing",
-        href: "/projects",
-        items: [],
-      },
-      {
-        title: "Single Project",
-        href: "/single-project",
-        items: [],
-      },
-    ],
+    title: "Contact",
+    href: "/contact",
+    // items: [],
   },
   {
     title: "Blog",
-    items: [
-      {
-        title: "Blog Listing",
-        href: "/blog",
-        items: [],
-      },
-      {
-        title: "Single Post",
-        href: "/single-post",
-        items: [],
-      },
-    ],
+    href: "/blog",
+    // items: [
+    //   {
+    //     title: "Blog Listing",
+    //     href: "/blog",
+    //     items: [],
+    //   },
+    //   {
+    //     title: "Single Post",
+    //     href: "/single-post",
+    //     items: [],
+    //   },
+    // ],
   },
+  // {
+  //   title: "Pages",
+  //   items: [
+  //     {
+  //       title: "About",
+  //       href: "/about",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "Services",
+  //       href: "/services",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "Pricing",
+  //       href: "/pricing",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "Contact",
+  //       href: "/contact",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "404",
+  //       href: "/page-404",
+  //       items: [],
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Projects",
+  //   items: [
+  //     {
+  //       title: "Projects Listing",
+  //       href: "/projects",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "Single Project",
+  //       href: "/single-project",
+  //       items: [],
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Blog",
+  //   items: [
+  //     {
+  //       title: "Blog Listing",
+  //       href: "/blog",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "Single Post",
+  //       href: "/single-post",
+  //       items: [],
+  //     },
+  //   ],
+  // },
 ] satisfies MainNavItem[];
 
 export const footerNav = [
