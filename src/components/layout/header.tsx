@@ -45,7 +45,7 @@ const Header = () => {
 
             <div className="hidden lg:ml-auto lg:inline-block">
               <a
-                href="tel:63-995-3959"
+                // href="tel:63-995-3959"
                 className="inline-block rounded-md bg-gradient-to-l from-primary to-tertiary px-4 py-2.5 text-center font-bold text-white"
               >
                 <span className="block text-xxs">Call us for Free</span>
