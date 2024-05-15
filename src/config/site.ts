@@ -10,81 +10,81 @@ export const mainNav = [
   {
     title: "Home",
     items: [
-      {
-        title: "Home Marketing",
-        href: "/",
-        items: [],
-      },
-      {
-        title: "Home SEO Agency",
-        href: "/seo-agency",
-        items: [],
-      },
-      {
-        title: "Home Consulting",
-        href: "/consulting",
-        items: [],
-      },
+      // {
+      //   title: "Home Marketing",
+      //   href: "/",
+      //   items: [],
+      // },
+      // {
+      //   title: "Home SEO Agency",
+      //   href: "/seo-agency",
+      //   items: [],
+      // },
+      // {
+      //   title: "Home Consulting",
+      //   href: "/consulting",
+      //   items: [],
+      // },
     ],
   },
   {
-    title: "Pages",
+    title: "About",
     items: [
-      {
-        title: "About",
-        href: "/about",
-        items: [],
-      },
-      {
-        title: "Services",
-        href: "/services",
-        items: [],
-      },
-      {
-        title: "Pricing",
-        href: "/pricing",
-        items: [],
-      },
-      {
-        title: "Contact",
-        href: "/contact",
-        items: [],
-      },
-      {
-        title: "404",
-        href: "/page-404",
-        items: [],
-      },
-    ],
-  },
-  {
-    title: "Projects",
-    items: [
-      {
-        title: "Projects Listing",
-        href: "/projects",
-        items: [],
-      },
-      {
-        title: "Single Project",
-        href: "/single-project",
-        items: [],
-      },
+      // {
+      //   title: "About",
+      //   href: "/about",
+      //   items: [],
+      // },
+      // {
+      //   title: "Services",
+      //   href: "/services",
+      //   items: [],
+      // },
+      // {
+      //   title: "Pricing",
+      //   href: "/pricing",
+      //   items: [],
+      // },
+      // {
+      //   title: "Contact",
+      //   href: "/contact",
+      //   items: [],
+      // },
+      // {
+      //   title: "404",
+      //   href: "/page-404",
+      //   items: [],
+      // },
     ],
   },
   {
     title: "Blog",
     items: [
-      {
-        title: "Blog Listing",
-        href: "/blog",
-        items: [],
-      },
-      {
-        title: "Single Post",
-        href: "/single-post",
-        items: [],
-      },
+      // {
+      //   title: "Projects Listing",
+      //   href: "/projects",
+      //   items: [],
+      // },
+      // {
+      //   title: "Single Project",
+      //   href: "/single-project",
+      //   items: [],
+      // },
+    ],
+  },
+  {
+    title: "Contact",
+    items: [
+      // {
+      //   title: "Blog Listing",
+      //   href: "/blog",
+      //   items: [],
+      // },
+      // {
+      //   title: "Single Post",
+      //   href: "/single-post",
+      //   items: [],
+      // },
     ],
   },
 ] satisfies MainNavItem[];
