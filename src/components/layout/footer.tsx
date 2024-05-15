@@ -3,8 +3,10 @@ import SiteLogo from "./site-logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faXTwitter,
-  faYoutube,
+  faInstagram,
+  faLinkedin,
+  // faXTwitter,
+  // faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 // import {
@@ -34,11 +36,18 @@ const Footer = () => {
                 Tools to Effectively Build Your Brand and Grow Your Business.
               </p>
               <div className="flex space-x-2">
-                <a
+                {/* <a
                   href="#"
                   className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-black text-white transition-colors hover:bg-foreground hover:text-white"
                 >
                   <FontAwesomeIcon icon={faXTwitter} width={15} />
+                </a> */}
+                
+                <a
+                  href="#"
+                  className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-[#0a0303] text-white transition-colors hover:bg-foreground hover:text-white"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} width={15} />
                 </a>
                 <a
                   href="#"
@@ -50,7 +59,7 @@ const Footer = () => {
                   href="#"
                   className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-[#cd201f] text-white transition-colors hover:bg-foreground hover:text-white"
                 >
-                  <FontAwesomeIcon icon={faYoutube} width={15} />
+                  <FontAwesomeIcon icon={faInstagram} width={15} />
                 </a>
               </div>
             </div>
