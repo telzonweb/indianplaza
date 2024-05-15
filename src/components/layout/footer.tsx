@@ -7,13 +7,13 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuList,
-} from "@/components/ui/navigation-menu";
+// import {
+//   NavigationMenu,
+//   NavigationMenuItem,
+//   NavigationMenuList,
+// } from "@/components/ui/navigation-menu";
 
-import { footerNav } from "@/config/site";
+// import { footerNav } from "@/config/site";
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="container">
         <div className="pb-16 pt-28">
           <div className="gap-10 space-y-10 md:grid md:grid-cols-12 md:space-y-0">
-            <div className="col-span-3">
+            <div className="col-span-6">
               <Link to="/" className="shrink-0">
                 <SiteLogo
                   width={123}
@@ -55,7 +55,7 @@ const Footer = () => {
               </div>
             </div>
 
-            {footerNav &&
+            {/* {footerNav &&
               footerNav.map((item, index) => (
                 <div
                   key={item.title}
@@ -84,15 +84,15 @@ const Footer = () => {
                     </NavigationMenuList>
                   </NavigationMenu>
                 </div>
-              ))}
-            <div className="col-span-3 xl:col-span-2">
-              <h2 className="mb-4 text-sm">Company</h2>
-              <ul className="space-y-2 text-sm">
-                <li>
+              ))} */}
+             <div className="col-span-6 xl:col-span-3">
+              <h2 className="mb-4 text-lg">Contact</h2>
+              <ul className="space-y-3 text-md">
+                 {/* <li>
                   <address className="-mt-px leading-6">
                     8910 University Center Lane Suite 620 San Diego, CA 92102
                   </address>
-                </li>
+                </li> */}
                 <li>
                   <span>Phone: </span>
                   <a
@@ -108,8 +108,14 @@ const Footer = () => {
                     hi@margin.com
                   </a>
                 </li>
+                <li>
+                  <address className="-mt-px leading-6">
+                    8910 University Center Lane Suite 620 San Diego, CA 92102
+                  </address>
+                </li>
               </ul>
-            </div>
+            </div> 
+
           </div>
         </div>
       </div>

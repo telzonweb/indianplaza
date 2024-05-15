@@ -116,36 +116,36 @@ export const mainNav = [
 ] satisfies MainNavItem[];
 
 export const footerNav = [
-  {
-    title: "Resources",
-    items: [
-      {
-        title: "About",
-        href: "/about",
-        external: false,
-      },
-      {
-        title: "Services",
-        href: "/services",
-        external: false,
-      },
-      {
-        title: "Pricing",
-        href: "/pricing",
-        external: false,
-      },
-      {
-        title: "Blog",
-        href: "/posts",
-        external: false,
-      },
-      {
-        title: "Contact",
-        href: "/contact",
-        external: false,
-      },
-    ],
-  },
+  // {
+  //   title: "Resources",
+  //   items: [
+  //     {
+  //       title: "About",
+  //       href: "/about",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Services",
+  //       href: "/services",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Pricing",
+  //       href: "/pricing",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Blog",
+  //       href: "/posts",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Contact",
+  //       href: "/contact",
+  //       external: false,
+  //     },
+  //   ],
+  // },
   {
     title: "Solutions",
     items: [
@@ -179,36 +179,36 @@ export const footerNav = [
 ] satisfies FooterItem[];
 
 export const footerNav2 = [
-  {
-    title: "Solutions",
-    items: [
-      {
-        title: "SEO Marketing",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Search engine optimization",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Email marketing",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Social Media",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Conversion rate optimization",
-        href: "#",
-        external: false,
-      },
-    ],
-  },
+  // {
+  //   title: "Solutions",
+  //   items: [
+  //     {
+  //       title: "SEO Marketing",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Search engine optimization",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Email marketing",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Social Media",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Conversion rate optimization",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //   ],
+  // },
   {
     title: "Quick Links",
     items: [
