@@ -43,9 +43,10 @@ function App() {
           )}
           <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
-              <Route index element={<Home />} />
+              {/* <Route index element={<Home />} /> */}
+              <Route index element={<HomeConsulting />} />
               <Route path="/seo-agency" element={<HomeSEOAgency />} />
-              <Route path="/consulting" element={<HomeConsulting />} />
+              {/* <Route path="/consulting" element={<HomeConsulting />} /> */}
               <Route path="/projects" element={<Projects />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/single-post" element={<SinglePost />} />
@@ -57,7 +58,8 @@ function App() {
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
-          {location.pathname === "/consulting" ? <FooterLayout2 /> : <Footer />}
+          {/* {location.pathname === "/consulting" ? <FooterLayout2 /> : <Footer />} */}
+          {location.pathname === "/consulting" ? <Footer /> : <Footer />}
           <Toaster richColors />
           <BackToTop />
           <ScrollToTop />
