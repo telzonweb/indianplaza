@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import img from "@/assets/img/abt-1.jpg"
 
 type SectionPageTitleProps = {
   children: React.ReactNode;
@@ -17,6 +18,7 @@ const SectionPageTitle = ({
     <section className="bg-muted pb-32 pt-48 dark:bg-slate-900">
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
+          <img src="/img/abt-1.jpg"/>
           <h1 className={cn("mb-6", titleClasses)}>{children}</h1>
           {subtitle && (
             <p className={cn("text-lg", subtitleClasses)}>{subtitle}</p>
