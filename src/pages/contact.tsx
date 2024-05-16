@@ -1,8 +1,9 @@
 import useFramerTransition from "@/hooks/use-transition";
 import SectionPageTitle from "@/components/sections/section-page-title";
-import SectionGoogleMap from "@/components/sections/section-google-map";
-import SectionContactForm from "@/components/sections/section-contact-form";
+// import SectionGoogleMap from "@/components/sections/section-google-map";
+// import SectionContactForm from "@/components/sections/section-contact-form";
 import { Helmet } from "react-helmet";
+import ContactUs from "@/components/Contactus";
 
 const Contact = useFramerTransition(
   <>
@@ -13,8 +14,9 @@ const Contact = useFramerTransition(
       <SectionPageTitle subtitle="Let’s have a dicussion about your business">
         Contact
       </SectionPageTitle>
-      <SectionContactForm />
-      <SectionGoogleMap />
+      <ContactUs/>
+      {/* <SectionContactForm />
+      <SectionGoogleMap /> */}
     </main>
   </>,
 );

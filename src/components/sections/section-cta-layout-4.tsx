@@ -14,7 +14,7 @@ const SectionCTALayout4 = () => {
 
             <Link to="/contact">
               <Button size="lg">
-                Let’s Work Together
+                WhatsApp
                 <ChevronRightIcon width={20} height={20} className="-mr-2 ml-4" />
               </Button>
             </Link>

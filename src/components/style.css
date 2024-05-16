@@ -1,0 +1,27 @@
+.custom-section {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
+    font-size: 1.25rem; /* fs-5 is equivalent to 1.25rem in Bootstrap */
+  }
+  
+  .custom-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .custom-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .custom-content p {
+    margin-bottom: 15px;
+  }
+  
