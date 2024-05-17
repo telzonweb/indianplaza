@@ -11,7 +11,7 @@ const Contact = useFramerTransition(
       <title>Contact</title>
     </Helmet>
     <main className="relative">
-      <SectionPageTitle subtitle="Let’s have a dicussion about your business">
+      <SectionPageTitle>
         Contact
       </SectionPageTitle>
       <ContactUs/>
