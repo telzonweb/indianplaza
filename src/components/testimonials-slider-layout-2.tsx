@@ -4,10 +4,12 @@ import TestimonialLayout2 from "./testimonial-layout-2";
 import { SwiperOptions } from "swiper/types";
 import { useRef } from "react";
 
+
 type TestimonialsSliderProps = {
   testimonials: Testimonial[];
   swiperParams: SwiperOptions;
 };
+
 
 const TestimonialsSliderLayout2 = ({
   testimonials,
