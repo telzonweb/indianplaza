@@ -34,36 +34,36 @@ function App() {
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <Suspense fallback={<Loading />}>
-          {/* {location.pathname === "/consulting" ? <HeaderLayout2 /> : <Header />} */}
-          {location.pathname === "/consulting" ? (
-            <HeaderLayout2 />
-          ) : (
-            <HeaderLayout2 />
-          )}
-          <AnimatePresence mode="wait">
-            <Routes location={location} key={location.pathname}>
-              {/* <Route index element={<Home />} /> */}
-              <Route index element={<HomeConsulting />} />
-              <Route path="/seo-agency" element={<HomeSEOAgency />} />
-              {/* <Route path="/consulting" element={<HomeConsulting />} /> */}
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/single-post" element={<SinglePost />} />
-              <Route path="/single-project" element={<SingleProject />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/services" element={<Services />} />
-              <Route path="/pricing" element={<Pricing />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </AnimatePresence>
-          {/* {location.pathname === "/consulting" ? <FooterLayout2 /> : <Footer />} */}
-          {location.pathname === "/consulting" ? <Footer /> : <Footer />}
-          <Toaster richColors />
-          <BackToTop />
-          <ScrollToTop />
-        </Suspense>
+        {/* <Suspense fallback={<Loading />}> */}
+        {/* {location.pathname === "/consulting" ? <HeaderLayout2 /> : <Header />} */}
+        {location.pathname === "/consulting" ? (
+          <HeaderLayout2 />
+        ) : (
+          <HeaderLayout2 />
+        )}
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            {/* <Route index element={<Home />} /> */}
+            <Route index element={<HomeConsulting />} />
+            <Route path="/seo-agency" element={<HomeSEOAgency />} />
+            {/* <Route path="/consulting" element={<HomeConsulting />} /> */}
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/single-post" element={<SinglePost />} />
+            <Route path="/single-project" element={<SingleProject />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </AnimatePresence>
+        {/* {location.pathname === "/consulting" ? <FooterLayout2 /> : <Footer />} */}
+        {location.pathname === "/consulting" ? <Footer /> : <Footer />}
+        <Toaster richColors />
+        <BackToTop />
+        <ScrollToTop />
+        {/* </Suspense> */}
       </QueryClientProvider>
     </>
   );

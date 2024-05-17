@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 const HomeConsulting = useFramerTransition(
   <>
     <Helmet>
-      <title>Home Consulting</title>
+      <title>Indian Plaza : Top Grocery Store in Melburn</title>
     </Helmet>
     <main className="relative">
       <SectionHeroLayout3 />
