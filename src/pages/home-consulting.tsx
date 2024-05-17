@@ -8,6 +8,7 @@ import SectionFAQ from "@/components/sections/section-faq";
 import SectionCTALayout3 from "@/components/sections/section-cta-layout-3";
 import { Helmet } from "react-helmet";
 import { SwiperElement } from "@/components/extra/SwiperElement";
+import Sectionourstore from "@/components/sections/section-our-store";
 
 const HomeConsulting = useFramerTransition(
   <>
@@ -16,7 +17,7 @@ const HomeConsulting = useFramerTransition(
     </Helmet>
     <main className="relative">
       <SectionHeroLayout3 />
-
+<Sectionourstore/>
       <SectionPartnersLayout2 />
       <SectionBenefits />
       <SectionIconBoxesLayout2 />

@@ -21,7 +21,7 @@ const TestimonialsSliderLayout2 = ({
 
   return (
     <div className="testimonials-slider--layout-2 relative">
-      <Swiper
+      {/* <Swiper
         {...swiperParams}
         ref={sliderRef}
         className="!py-2 xl:!overflow-visible"
@@ -31,7 +31,17 @@ const TestimonialsSliderLayout2 = ({
             <TestimonialLayout2 testimonial={testimonial} />
           </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> */}
+      <Swiper {...swiperParams}>
+      {testimonials.map((testimonial, index) => (
+        <SwiperSlide key={index}>
+          <div className="testimonial-item text-center">
+            <img src={testimonial.image} alt={testimonial.name} className="mx-auto mb-4" />
+            <p className="font-medium">{testimonial.name}</p>
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
     </div>
   );
 };

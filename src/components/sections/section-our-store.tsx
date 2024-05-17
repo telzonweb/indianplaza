@@ -1,58 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-const SectionPartnersLayout2 = () => {
+function Sectionourstore() {
   return (
-    <section className="pb-16 pt-6">
-      <div className="container relative">
-        <div className="flex flex-wrap justify-center">
-          <img
-            src="partners/partner_logo_1.png"
-            alt="partner 1"
-            width={173}
-            height={103}
-            className="m-2 md:mx-8 md:my-5"
-          />
-          <img
-            src="partners/partner_logo_2.png"
-            alt="partner 2"
-            width={173}
-            height={103}
-            className="m-2 md:mx-8 md:my-5"
-          />
-          <img
-            src="partners/partner_logo_3.png"
-            alt="partner 3"
-            width={173}
-            height={103}
-            className="m-2 md:mx-8 md:my-5"
-          />
-          <img
-            src="partners/partner_logo_4.png"
-            alt="partner 4"
-            width={173}
-            height={103}
-            className="m-2 md:mx-8 md:my-5"
-          />
-          <img
-            src="partners/partner_logo_5.png"
-            alt="partner 5"
-            width={173}
-            height={103}
-            className="m-2 md:mx-8 md:my-5"
-          />
-        </div>
-      </div>
-    </section>  
-
-
-/* <section className="flex justify-center items-center flex-col px-4 md:px-8"> 
+    <section className="flex justify-center items-center flex-col px-4 md:px-8"> 
               <h2 className="mb-12 text-center">Our Store</h2>     
-            <h2 className="mb-12 text-center">
+            {/* <h2 className="mb-12 text-center">
               Do you want to{" "}<br></br>
               <span className="text-primary">
                 generate more traffic</span> to
               your website? We know the solution.
-            </h2>
+            </h2> */}
         
   <div className="grid grid-cols-2 gap-10 max-w-screen-md">
     <div>
@@ -68,9 +25,8 @@ const SectionPartnersLayout2 = () => {
       <img src="https://img.freepik.com/free-photo/beautiful-young-family-with-child_171337-2370.jpg?t=st=1715938052~exp=1715941652~hmac=6da85e65215681ad56da87e829fc707b3364fe80ddc1d8a44facf93ac70e7364&w=996" alt="Image 4" className="w-full h-full object-cover rounded-lg" />
     </div>
   </div>
-</section> */
+</section>
+  )
+}
 
-  );
-};
-
-export default SectionPartnersLayout2;
+export default Sectionourstore;
