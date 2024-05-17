@@ -73,6 +73,7 @@ const SectionTestimonialsSliderLayout2 = () => {
         />
       </div>
     </section>
+  
   );
 };
 
