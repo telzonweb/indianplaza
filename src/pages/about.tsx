@@ -13,12 +13,7 @@ const About = useFramerTransition(
 			<title>About</title>
 		</Helmet>
 		<main className="relative">
-			<SectionPageTitle
-				subtitle="Focus on engaging, reusable content that decrease the cost per leads
-					while helps you to increase profits margin. Margin strives to
-					deliver the tools and support that helps companies grow with
-					unparalleled success."
-			>
+			<SectionPageTitle>
 				About
 			</SectionPageTitle>
 			<Paragraph/>

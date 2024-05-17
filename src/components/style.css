@@ -1,27 +1,35 @@
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
 .custom-section {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 40px;
-    font-size: 1.25rem; /* fs-5 is equivalent to 1.25rem in Bootstrap */
+  background-color: #f8f9fa; /* Example background color */
+  padding: 20px; /* Example padding */
+}
+
+.custom-image {
+  text-align: center; /* Center the image for smaller screens */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .custom-content, .custom-image {
+    text-align: center;
   }
-  
-  .custom-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .custom-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .custom-content h2 {
-    margin-bottom: 20px;
-  }
-  
-  .custom-content p {
-    margin-bottom: 15px;
-  }
-  
+}
