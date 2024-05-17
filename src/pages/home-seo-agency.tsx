@@ -8,6 +8,7 @@ import SectionCTALayout2 from "@/components/sections/section-cta-layout-2";
 import SectionTestimonials from "@/components/sections/section-testimonials";
 import SectionResults from "@/components/sections/section-results";
 import { Helmet } from "react-helmet";
+import { SwiperElement } from "@/components/extra/SwiperElement";
 
 const HomeSEOAgency = useFramerTransition(
   <>
@@ -16,6 +17,7 @@ const HomeSEOAgency = useFramerTransition(
     </Helmet>
     <main className="relative mt-[4.5rem] lg:mt-[161px]">
       <SectionHeroLayout2 />
+
       <SectionServiceTabs />
       <SectionSertificationsPartners />
       <SectionProjectsSlider />
