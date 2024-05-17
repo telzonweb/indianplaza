@@ -13,7 +13,7 @@ import Sectionourstore from "@/components/sections/section-our-store";
 const HomeConsulting = useFramerTransition(
   <>
     <Helmet>
-      <title>Indian Plaza : Top Grocery Store in Melburn</title>
+      <title>Indian Plaza : Top Grocery Store in Melbourne</title>
     </Helmet>
     <main className="relative">
       <SectionHeroLayout3 />
