@@ -17,7 +17,7 @@ const HomeConsulting = useFramerTransition(
     </Helmet>
     <main className="relative">
       <SectionHeroLayout3 />
-<Sectionourstore/>
+      <Sectionourstore />
       <SectionPartnersLayout2 />
       <SectionBenefits />
       <SectionIconBoxesLayout2 />
