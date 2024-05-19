@@ -122,10 +122,10 @@ const SectionTestimonialsSliderLayout2 = () => {
           swiperParams={{
             breakpoints: {
               768: {
-                slidesPerView: 2,
+                slidesPerView: 4,
               },
               1025: {
-                slidesPerView: 2,
+                slidesPerView: 4,
               },
             },
             spaceBetween: 40,
