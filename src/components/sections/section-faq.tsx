@@ -64,14 +64,17 @@ const SectionFAQ = () => {
               </Accordion>
               <span className="mt-14 inline-block text-lg">
                 Any Question?{" "}
-                <a href="mailto:support@margin.com" className="text-primary">
-                  support@margin.com
+                <a
+                  href="mailto:support@indinplaza.com"
+                  className="text-primary"
+                >
+                  support@indianplaza.com
                 </a>
               </span>
             </motion.div>
           </div>
 
-          <div className="relative z-[1] mb-10 lg:w-1/2">
+          {/* <div className="relative z-[1] mb-10 lg:w-1/2">
             <motion.div
               initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -136,7 +139,7 @@ const SectionFAQ = () => {
                 </div>
               </div>
             </motion.div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
