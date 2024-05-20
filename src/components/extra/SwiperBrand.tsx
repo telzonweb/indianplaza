@@ -108,22 +108,22 @@ import "swiper/css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const imgArray = [
-    "https://tse2.mm.bing.net/th?id=OIP.RI2Q9yfcstpumaM_6J4kNwHaEH&pid=Api&P=0&h=180",
-    "https://1000logos.net/wp-content/uploads/2020/09/Oreo-logo.jpg",
-    "https://tse1.mm.bing.net/th?id=OIP.v6GhTR_13tZjkQAKGQXYUwHaFP&pid=Api&P=0&h=180",
-    "https://tse2.mm.bing.net/th?id=OIP.O4ibxk7zS7tb1LXV3kTeegHaHP&pid=Api&P=0&h=180",
-    "https://tse2.mm.bing.net/th?id=OIP.RI2Q9yfcstpumaM_6J4kNwHaEH&pid=Api&P=0&h=180",
-    "https://1000logos.net/wp-content/uploads/2020/09/Oreo-logo.jpg",
-    "https://tse1.mm.bing.net/th?id=OIP.v6GhTR_13tZjkQAKGQXYUwHaFP&pid=Api&P=0&h=180",
-    "https://tse2.mm.bing.net/th?id=OIP.O4ibxk7zS7tb1LXV3kTeegHaHP&pid=Api&P=0&h=180",
-    "https://tse1.mm.bing.net/th?id=OIP.v6GhTR_13tZjkQAKGQXYUwHaFP&pid=Api&P=0&h=180",
-    "https://tse2.mm.bing.net/th?id=OIP.O4ibxk7zS7tb1LXV3kTeegHaHP&pid=Api&P=0&h=180",
-]
+  "https://tse2.mm.bing.net/th?id=OIP.RI2Q9yfcstpumaM_6J4kNwHaEH&pid=Api&P=0&h=180",
+  "https://1000logos.net/wp-content/uploads/2020/09/Oreo-logo.jpg",
+  "https://tse1.mm.bing.net/th?id=OIP.v6GhTR_13tZjkQAKGQXYUwHaFP&pid=Api&P=0&h=180",
+  "https://tse2.mm.bing.net/th?id=OIP.O4ibxk7zS7tb1LXV3kTeegHaHP&pid=Api&P=0&h=180",
+  "https://tse2.mm.bing.net/th?id=OIP.RI2Q9yfcstpumaM_6J4kNwHaEH&pid=Api&P=0&h=180",
+  "https://1000logos.net/wp-content/uploads/2020/09/Oreo-logo.jpg",
+  "https://tse1.mm.bing.net/th?id=OIP.v6GhTR_13tZjkQAKGQXYUwHaFP&pid=Api&P=0&h=180",
+  "https://tse2.mm.bing.net/th?id=OIP.O4ibxk7zS7tb1LXV3kTeegHaHP&pid=Api&P=0&h=180",
+  "https://tse1.mm.bing.net/th?id=OIP.v6GhTR_13tZjkQAKGQXYUwHaFP&pid=Api&P=0&h=180",
+  "https://tse2.mm.bing.net/th?id=OIP.O4ibxk7zS7tb1LXV3kTeegHaHP&pid=Api&P=0&h=180",
+];
 
 export const SwiperBrand = () => {
   // Group images into sets of four
   const imgSets = [];
-  for (let i = 0; i < imgArray.length; i +=5) {
+  for (let i = 0; i < imgArray.length; i += 5) {
     imgSets.push(imgArray.slice(i, i + 5));
   }
 
@@ -146,8 +146,8 @@ export const SwiperBrand = () => {
           <SwiperSlide key={index}>
             <div className="flex justify-between gap-4">
               {set.map((imglink, key) => (
-                <div key={key} className="w-1/4">
-                  <img src={imglink} alt="" className="w-full" />
+                <div key={key} className="w-1/4 ">
+                  <img src={imglink} alt="" className="w-full rounded-lg" />
                 </div>
               ))}
             </div>
@@ -157,4 +157,3 @@ export const SwiperBrand = () => {
     </>
   );
 };
-
