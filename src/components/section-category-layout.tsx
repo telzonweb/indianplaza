@@ -230,7 +230,7 @@ const SectioncategoryLayout = () => {
             <h2 className="mb-12">Our Product</h2>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-10">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8 mr-10 ml-10">
           {iconBoxes.map((iconBox, index) => (
             <motion.div
               key={iconBox.title}
@@ -243,10 +243,10 @@ const SectioncategoryLayout = () => {
               }}
               custom={index}
             >
-              <div className={`bg-white rounded-lg p-8 ${iconBox.shadow} hover:shadow-md hover:scale-105 transition-shadow duration-300`} style={{ height: "350px" }}>
+              <div className={`bg-white rounded-lg p-10 ${iconBox.shadow} hover:shadow-md hover:scale-105 transition-shadow duration-300`} style={{ height: "300px" }}>
                 <div className="flex flex-col items-center justify-center h-full text-center">
                   <img src={iconBox.src} alt={iconBox.title} className="mb-4 h-24 w-auto" />
-                  <h3 className="text-lg font-semibold mb-4">{iconBox.title}</h3>
+                  <h3 className="text-lg font-semibold mb-4">{iconBox.title}</h3> 
                   <p className="text-gray-600">{iconBox.description}</p>
                 </div>
               </div>

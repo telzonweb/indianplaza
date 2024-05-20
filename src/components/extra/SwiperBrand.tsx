@@ -144,9 +144,9 @@ export const SwiperBrand = () => {
       >
         {imgSets.map((set, index) => (
           <SwiperSlide key={index}>
-            <div className="flex justify-between gap-4">
+            <div className="flex justify-between gap-6">
               {set.map((imglink, key) => (
-                <div key={key} className="w-1/4">
+                <div key={key} className="w-1/5">
                   <img src={imglink} alt="" className="w-full" />
                 </div>
               ))}
