@@ -21,30 +21,42 @@ const TestimonialsSliderLayout2 = ({
     return null;
   }
 
-  return (
-    <div className="testimonials-slider--layout-2 relative">
-      {/* <Swiper
-        {...swiperParams}
-        ref={sliderRef}
-        className="!py-2 xl:!overflow-visible"
-      >
-        {testimonials.map((testimonial) => (
-          <SwiperSlide key={testimonial.name}>
-            <TestimonialLayout2 testimonial={testimonial} />
+   return (
+  //   <div className="testimonials-slider--layout-2 relative">
+  //     {/* <Swiper
+  //       {...swiperParams}
+  //       ref={sliderRef}
+  //       className="!py-2 xl:!overflow-visible"
+  //     >
+  //       {testimonials.map((testimonial) => (
+  //         <SwiperSlide key={testimonial.name}>
+  //           <TestimonialLayout2 testimonial={testimonial} />
+  //         </SwiperSlide>
+  //       ))}
+  //     </Swiper> */}
+  //     <Swiper {...swiperParams}>
+  //     {testimonials.map((testimonial, index) => (
+  //       <SwiperSlide key={index}>
+  //         <div className="testimonial-item text-center">
+  //           <img src={testimonial.image} alt={testimonial.name} className="mx-auto mb-4" />
+  //           <p className="font-medium">{testimonial.name}</p>
+  //         </div>
+  //       </SwiperSlide>
+  //     ))}
+  //   </Swiper>
+  //   </div>
+  <div className="testimonials-slider--layout-2 relative">
+      <Swiper {...swiperParams}>
+        {testimonials.map((testimonial, index) => (
+          <SwiperSlide key={index}>
+            <div className="testimonial-item text-center hover:shadow-md hover:scale-101 transition-all duration-300 rounded-lg overflow-hidden">
+              <img src={testimonial.image} alt={testimonial.name} className="mx-auto mb-4 rounded-lg" />
+              <p className="font-medium">{testimonial.name}</p>
+            </div>
           </SwiperSlide>
         ))}
-      </Swiper> */}
-      <Swiper {...swiperParams}>
-      {testimonials.map((testimonial, index) => (
-        <SwiperSlide key={index}>
-          <div className="testimonial-item text-center">
-            <img src={testimonial.image} alt={testimonial.name} className="mx-auto mb-4" />
-            <p className="font-medium">{testimonial.name}</p>
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
-    </div>
+      </Swiper>
+    </div>
   );
 };
 
