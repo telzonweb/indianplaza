@@ -22,10 +22,10 @@ const SectionHeroLayout3 = () => {
             <div className="mb-12 lg:mb-0 lg:w-2/5">
               <h1 className="text-headings text-3xl md:text-4xl lg:text-5xl xl:text-7xl">
                 Indian Plaza{" "}
-                <span className="relative inline-block before:absolute before:bottom-3 before:-z-[1] before:h-2 before:w-full before:rounded-lg before:bg-primary before:bg-gradient-to-l before:from-primary before:to-tertiary before:opacity-70">
+                {/* <span className="relative inline-block before:absolute before:bottom-3 before:-z-[1] before:h-2 before:w-full before:rounded-lg before:bg-primary before:bg-gradient-to-l before:from-primary before:to-tertiary before:opacity-70">
                   Groceries
-                </span>{" "}
-                & Super Store
+                </span>{" "} */}
+                The Super Store
               </h1>
               <p className="mb-10 text-xl">
                 The best Grocery store in Melbourne

@@ -45,7 +45,7 @@ function App() {
           <Routes location={location} key={location.pathname}>
             {/* <Route index element={<Home />} /> */}
             <Route index element={<HomeConsulting />} />
-            <Route path="/seo-agency" element={<HomeSEOAgency />} />
+            {/* <Route path="/seo-agency" element={<HomeSEOAgency />} /> */}
             {/* <Route path="/consulting" element={<HomeConsulting />} /> */}
             <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} />
