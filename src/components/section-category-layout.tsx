@@ -119,7 +119,6 @@ const SectioncategoryLayout = () => {
     );
   })}
 </div>
-
       </div>
     </section>
   );
