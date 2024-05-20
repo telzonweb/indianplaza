@@ -1,6 +1,6 @@
 import { siteConfig } from "@/config/site";
-import logo from "/logo.svg"
-import logoDark from "/logo_dark.svg"
+import logo from "/logo.svg";
+import logoDark from "/logo_dark.svg";
 
 type SiteLogoProps = {
   width: number;
