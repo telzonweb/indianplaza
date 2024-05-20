@@ -50,6 +50,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/single-post" element={<SinglePost />} />
+            <Route path="/blog/:slug" element={<SinglePost />} />
             <Route path="/single-project" element={<SingleProject />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
