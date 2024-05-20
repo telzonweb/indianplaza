@@ -75,71 +75,95 @@
 
 // export default SectionPartnersLayout2;
 
-import React from 'react'
-import TestimonialsSliderLayout2 from "@/components/testimonials-slider-layout-2";
-import { Pagination } from "swiper/modules";
-import SectionTitle from "./section-title";
 
-// Import Swiper styles
+
+// import React from 'react';
+// import SectionTitle from "./section-title";
+
+// // Import Swiper styles (if needed for other components)
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import SectioncategoryLayout from '../section-category-layout';
+
+// export const testimonials = [
+//   {
+//     image: "https://s.yimg.com/fz/api/res/1.2/fdmWe0djizOJqBXAhBCgIg--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/c190d85d-73d0-34b0-8fbe-bd2fe48609a3/t_500x300",
+//   },
+//   {
+//     image: "https://s.yimg.com/fz/api/res/1.2/kDUVktKZs8pZ0PMKPrFdeA--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/221312f4-7292-3999-836b-84b9646e9030/t_500x300",
+//   },
+//   {
+//     image: "http://tous-logos.com/wp-content/uploads/2018/01/Nestl%C3%A9-Logo.png",
+//   },
+//   {
+//     image: "https://tse1.mm.bing.net/th?id=OIP.zGQwN2HFcUmfKtOKaEU1bAHaE8&pid=Api&P=0&h=180",
+//   },
+//   {
+//     image: "https://tse4.mm.bing.net/th?id=OIP.ToJ2sR_uR8tfMPC2oT0YWAHaD2&pid=Api&P=0&h=180",
+//   },
+//   // Add more logo objects here
+//   {
+//     image: "https://tse4.mm.bing.net/th?id=OIP._90P_8cj0z2GqnKen6EKjQHaHa&pid=Api&P=0&h=180", // Example placeholder image
+//   },
+//   // Repeat or add unique images up to 25-30 logos
+// ];
+
+// function SectionPartnersLayout2() {
+
+//   return (
+//     <section className="overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
+//       <div className="container mx-auto">
+//         <SectionTitle
+
+//           sectionClasses="mx-auto max-w-xl text-center mb-12"
+//           titleClasses="mb-3 text-center"
+//           subtitleClasses="text-md font-medium"
+//         >
+//           Our Top Brands
+//         </SectionTitle>
+//         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+//           {testimonials.map((testimonial, index) => (
+//             <div key={index} className="flex items-center justify-center p-4">
+//               <img src={testimonial.image} alt={`Logo ${index}`} className="max-h-20" />
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+
+// }
+
+// export default SectionPartnersLayout2
+
+import React from 'react';
+import SectionTitle from "./section-title";
 import "swiper/css";
 import "swiper/css/pagination";
-
-export const testimonials = [
-  {
-    // name: "Fruits",
-    image: "https://s.yimg.com/fz/api/res/1.2/fdmWe0djizOJqBXAhBCgIg--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/c190d85d-73d0-34b0-8fbe-bd2fe48609a3/t_500x300",
-  },
-  {
-    // name: "Dairy",
-    image: "https://s.yimg.com/fz/api/res/1.2/kDUVktKZs8pZ0PMKPrFdeA--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/221312f4-7292-3999-836b-84b9646e9030/t_500x300",
-  },
-  {
-    // name: "Snacks",
-    image: "http://tous-logos.com/wp-content/uploads/2018/01/Nestl%C3%A9-Logo.png",
-  },
-  {
-    // name: "Beverages",
-    image: "https://tse1.mm.bing.net/th?id=OIP.zGQwN2HFcUmfKtOKaEU1bAHaE8&pid=Api&P=0&h=180",
-  },
-  {
-    // name: "Beverages",
-    image: "https://tse4.mm.bing.net/th?id=OIP.ToJ2sR_uR8tfMPC2oT0YWAHaD2&pid=Api&P=0&h=180",
-  },
-];
+import "swiper/css/autoplay";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import {SwiperBrand} from "@/components/extra/SwiperBrand"
 
 function SectionPartnersLayout2() {
-    
   return (
     <section className="overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
-      <div className="container overflow-hidden relative xl:left-[calc((100vw-1312px)/4)] xl:max-w-[calc(1312px+((100vw-1312px)/2))] xl:pr-[calc((100vw-1280px)/2)]">
+      <div className="container mx-auto">
         <SectionTitle
-          // subtitle="10,000k+ Customers those who already tried our services."
           sectionClasses="mx-auto max-w-xl text-center mb-12"
           titleClasses="mb-3 text-center"
           subtitleClasses="text-md font-medium"
         >
-         Our Top Brands
+          Our Top Brands
         </SectionTitle>
-        <TestimonialsSliderLayout2
-          testimonials={testimonials}
-          swiperParams={{
-            breakpoints: {
-              768: {
-                slidesPerView: 3,
-              },
-              1025: {
-                slidesPerView: 3,
-              },
-            },
-            spaceBetween: 40,
-            modules: [Pagination],
-            pagination: { clickable: true },
-          }}
-        />
+        <div className="flex justify-center w-full">
+          <div className="w-full max-w-screen-lg text-center">
+            <SwiperBrand />
+        </div>
+</div>
       </div>
     </section>
   );
-  
 }
 
 export default SectionPartnersLayout2;
