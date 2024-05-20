@@ -48,7 +48,7 @@ const PostCard = ({ post }: Props) => {
         {categories && (
           <>
             <div className="mb-5 flex">
-              <BookmarkIcon width={15} className="mr-1 stroke-primary" />
+              {/* <BookmarkIcon width={15} className="mr-1 stroke-primary" /> */}
               <div className="space-x-2 text-xs font-medium text-foreground dark:text-white">
                 {categories.map((category) => <span key={category.id}>{category.name}</span> )}
               </div>
