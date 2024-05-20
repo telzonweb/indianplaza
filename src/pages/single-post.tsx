@@ -40,7 +40,7 @@ const SinglePost = useFramerTransition(
             className="mb-5 text-white lg:text-5xl"
             dangerouslySetInnerHTML={{ __html: post.title.rendered }}
           ></h1>
-          {author && (
+          {/* {author && (
             <div className="inline-flex flex-nowrap items-center text-base font-medium text-white lg:text-md">
               <img
                 src={author.avatar_urls[48]}
@@ -58,12 +58,12 @@ const SinglePost = useFramerTransition(
                 {getDate(post.modified)}
               </span>
             </div>
-          )}
+          )} */}
         </div>
       </div>
       <section className="border-b pb-24 pt-16">
         <div className="container">
-          <div className="mx-auto max-w-[50rem]">
+          {/* <div className="mx-auto max-w-[50rem]">
             <div className="mb-4 flex items-center">
               <span className="mb-2 mr-3 inline-block text-sm font-medium">
                 Share:
@@ -102,15 +102,15 @@ const SinglePost = useFramerTransition(
                 />
               </div>
             </div>
-          </div>
+          </div> */}
           <article
             className="post-content prose prose-lg mx-auto max-w-[50rem] dark:prose-invert prose-headings:text-foreground"
             dangerouslySetInnerHTML={{ __html: post.content.rendered }}
           ></article>
 
-          <div className="color-scheme-initial mx-auto mt-12 max-w-[50rem]">
+          {/* <div className="color-scheme-initial mx-auto mt-12 max-w-[50rem]">
             <BlogComments post={post} />
-          </div>
+          </div> */}
         </div>
       </section>
     </main>
