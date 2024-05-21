@@ -44,21 +44,21 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faXTwitter} width={15} />
                 </a> */}
 
-                <a
+                {/* <a
                   href="#"
-                  className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-[#0a0303] text-white transition-colors hover:bg-foreground hover:text-white"
+                  className="mb-2 flex h-10 w-10 items-center justify-center rounded-xl bg-[#0a0303] text-white transition-colors hover:bg-foreground hover:text-white"
                 >
                   <FontAwesomeIcon icon={faLinkedin} width={15} />
-                </a>
+                </a> */}
                 <a
                   href="https://www.facebook.com/iPlazaSA/"
-                  className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-[#324e8c] text-white transition-colors hover:bg-foreground hover:text-white"
+                  className="mb-2 flex h-10 w-10 items-center justify-center rounded-xl bg-[#324e8c] text-white transition-colors hover:bg-foreground hover:text-white"
                 >
                   <FontAwesomeIcon icon={faFacebook} width={15} />
                 </a>
                 <a
                   href="#"
-                  className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-[#cd201f] text-white transition-colors hover:bg-foreground hover:text-white"
+                  className="mb-2 flex h-10 w-10 items-center justify-center rounded-xl bg-[#cd201f] text-white transition-colors hover:bg-foreground hover:text-white"
                 >
                   <FontAwesomeIcon icon={faInstagram} width={15} />
                 </a>
