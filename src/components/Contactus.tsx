@@ -31,6 +31,7 @@ const ContactUs: React.FC = () => {
           <p>1234 Main St</p>
           <p>City, State, 12345</p>
         </div>
+        
         <div style={{ border: '1px solid #ccc', padding: '20px', width: '30%' }}>
           <h3>Email</h3>
           <p>contact@example.com</p>

@@ -6,13 +6,22 @@ const Paragraph = () => {
     <section className="pt-12 pl-12 pr-10 text-lg custom-section">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row">
-          <div className="md:w-1/2 w-full custom-image md:mr-8 mb-8 md:mb-0">
+          {/* <div className="md:w-1/2 w-full custom-image md:mr-8 mb-8 md:mb-0">
             <img
               src="https://img.freepik.com/premium-photo/there-is-large-store-with-variety-fruits-vegetables-generative-ai_901003-169177.jpg?w=740"
               alt="about"
               className="w-full h-auto"
             />
+          </div> */}
+          <div className="md:w-1/2 w-full custom-image md:mr-8 mb-8 md:mb-0">
+            <img
+              src="https://img.freepik.com/premium-photo/there-is-large-store-with-variety-fruits-vegetables-generative-ai_901003-169177.jpg?w=740"
+              alt="about"
+              className="w-full h-auto"
+              style={{ width: '550px', height: '450px' }}
+            />
           </div>
+
           <div className="md:w-1/2 w-full custom-content">
             <h2 className="text-2xl font-bold mb-4">Margin</h2>
             <p className="mb-4">

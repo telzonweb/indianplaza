@@ -105,7 +105,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 const imgArray = [
   "https://tse2.mm.bing.net/th?id=OIP.RI2Q9yfcstpumaM_6J4kNwHaEH&pid=Api&P=0&h=180",
@@ -138,7 +138,7 @@ export const SwiperBrand = () => {
           pauseOnMouseEnter: true,
         }}
         navigation={true}
-        modules={[Autoplay]}
+        modules={[Autoplay, Navigation]}
         loop={true}
         className="mySwiper"
       >
@@ -147,7 +147,7 @@ export const SwiperBrand = () => {
             <div className="flex justify-between gap-6">
               {set.map((imglink, key) => (
                 <div key={key} className="w-1/4">
-                  <img src={imglink} alt="" className="w-full" />
+                  <img src={imglink} alt="" className="w-full h-auto" style={{ maxWidth: '100px', maxHeight: '100px' }} />
                 </div>
               ))}
             </div>
