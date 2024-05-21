@@ -6,6 +6,7 @@ import SectionTeam from "@/components/sections/section-team";
 import SectionCTALayout4 from "@/components/sections/section-cta-layout-4";
 import { Helmet } from "react-helmet";
 import Paragraph from "@/components/Paragraph";
+import AboutOffer from "@/components/sections/about-offer";
 
 const About = useFramerTransition(
   <>
@@ -17,6 +18,7 @@ const About = useFramerTransition(
       <Paragraph />
       {/* <SectionChecklist /> */}
       <SectionStats />
+      <AboutOffer/>
       {/* <SectionTeam /> */}
       <SectionCTALayout4 />
     </main>
