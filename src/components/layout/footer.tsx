@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import SiteLogo from "./site-logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -25,12 +25,13 @@ const Footer = () => {
           <div className="gap-10 space-y-10 md:grid md:grid-cols-12 md:space-y-0">
             <div className="col-span-6">
               <Link to="/" className="shrink-0">
-                <SiteLogo
+                {/* <SiteLogo
                   width={123}
                   height={39}
                   lightClasses="dark:hidden"
                   darkClasses="hidden dark:block"
-                />
+                /> */}
+                <img src="/ipLogoWide.png" alt="ipLogo" className="w-[160px]" />
               </Link>
               <p className="mb-8 mt-6">
                 Tools to Effectively Build Your Brand and Grow Your Business.
@@ -42,7 +43,7 @@ const Footer = () => {
                 >
                   <FontAwesomeIcon icon={faXTwitter} width={15} />
                 </a> */}
-                
+
                 <a
                   href="#"
                   className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-[#0a0303] text-white transition-colors hover:bg-foreground hover:text-white"
@@ -94,10 +95,10 @@ const Footer = () => {
                   </NavigationMenu>
                 </div>
               ))} */}
-             <div className="col-span-6 xl:col-span-3">
+            <div className="col-span-6 xl:col-span-3">
               <h2 className="mb-4 text-lg">Contact</h2>
               <ul className="space-y-3 text-md">
-                 {/* <li>
+                {/* <li>
                   <address className="-mt-px leading-6">
                     8910 University Center Lane Suite 620 San Diego, CA 92102
                   </address>
@@ -123,8 +124,7 @@ const Footer = () => {
                   </address>
                 </li>
               </ul>
-            </div> 
-
+            </div>
           </div>
         </div>
       </div>
