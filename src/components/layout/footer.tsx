@@ -51,7 +51,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faLinkedin} width={15} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/iPlazaSA/"
                   className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-[#324e8c] text-white transition-colors hover:bg-foreground hover:text-white"
                 >
                   <FontAwesomeIcon icon={faFacebook} width={15} />
@@ -65,36 +65,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* {footerNav &&
-              footerNav.map((item, index) => (
-                <div
-                  key={item.title}
-                  className={`${
-                    index === 0 ? "xl:col-start-7" : ""
-                  } col-span-3 xl:col-span-2`}
-                >
-                  <h2 className="mb-4 text-sm">{item.title}</h2>
-                  <NavigationMenu orientation="vertical">
-                    <NavigationMenuList className="flex-col items-start space-y-2">
-                      {item.items.map((link) => (
-                        <NavigationMenuItem
-                          key={link.title}
-                          className="text-sm"
-                        >
-                          <Link
-                            to={link.href}
-                            target={link?.external ? "_blank" : undefined}
-                            rel={link?.external ? "noreferrer" : undefined}
-                            className="block hover:text-primary"
-                          >
-                            {link.title}
-                          </Link>
-                        </NavigationMenuItem>
-                      ))}
-                    </NavigationMenuList>
-                  </NavigationMenu>
-                </div>
-              ))} */}
             <div className="col-span-6 xl:col-span-3">
               <h2 className="mb-4 text-lg">Contact</h2>
               <ul className="space-y-3 text-md">
@@ -109,18 +79,21 @@ const Footer = () => {
                     href="tel:+1-800-1554-456-123"
                     className="hover:text-primary"
                   >
-                    + 1 (800) 155 4561
+                    + 61 08 8260 5671
                   </a>
                 </li>
                 <li>
                   <span>Email: </span>
-                  <a href="mailto:hi@margin.com" className="hover:text-primary">
-                    hi@margin.com
+                  <a
+                    href="mailto:hello@indianplaza.com.au"
+                    className="hover:text-primary"
+                  >
+                    hello@indianplaza.com.au
                   </a>
                 </li>
                 <li>
                   <address className="-mt-px leading-6">
-                    8910 University Center Lane Suite 620 San Diego, CA 92102
+                    431-435 Main North Rd ENFIELD, SA 5085
                   </address>
                 </li>
               </ul>
@@ -131,9 +104,9 @@ const Footer = () => {
       <div className="border-t py-12">
         <div className="container text-center">
           <span className="text-xs">
-            © {new Date().getFullYear()} Margin React, Made by{" "}
-            <a href="https://deothemes.com" className="hover:text-primary">
-              DeoThemes
+            © {new Date().getFullYear()} Indian Plaza, Made by{" "}
+            <a href="https://telzonmarketing.in" className="hover:text-primary">
+              Telzon Marketing
             </a>
           </span>
         </div>
