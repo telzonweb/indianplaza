@@ -39,12 +39,13 @@ const HeaderLayout2 = () => {
           )}
         >
           <Link to="/" className="mr-12 shrink-0">
-            <SiteLogo
+            {/* <SiteLogo
               width={123}
               height={39}
               lightClasses="w-4/5 dark:hidden lg:w-auto"
               darkClasses="hidden w-4/5 dark:block lg:w-auto"
-            />
+            /> */}
+            <img src="/ipLogoWide.png" alt="ipLogo" className="w-[160px]" />
           </Link>
 
           <div className="relative flex w-full items-center justify-end lg:bg-transparent">
