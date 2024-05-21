@@ -4,6 +4,7 @@ import SectionPageTitle from "@/components/sections/section-page-title";
 // import SectionContactForm from "@/components/sections/section-contact-form";
 import { Helmet } from "react-helmet";
 import ContactUs from "@/components/Contactus";
+import AddressComponent from "@/components/AddressComponent";
 
 const Contact = useFramerTransition(
   <>
@@ -15,6 +16,7 @@ const Contact = useFramerTransition(
         Contact
       </SectionPageTitle>
       <ContactUs/>
+      <AddressComponent/>
       {/* <SectionContactForm />
       <SectionGoogleMap /> */}
     </main>
