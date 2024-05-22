@@ -11,7 +11,7 @@ const SectionImgPara = () => {
               src="https://tse4.mm.bing.net/th?id=OIP.HsaRHc0Y0TH64YlNcLpN0wHaEh&pid=Api&P=0&h=180"
               alt="about"
               className="w-full h-auto rounded-lg shadow-lg transform transition duration-500 hover:scale-105 custom-image-border"
-              style={{ width: "100%", maxWidth: "570px", height: "500px", maxHeight: "450px" }}
+              style={{ maxWidth: "570px", maxHeight: "450px" }}
             />
           </div>
 

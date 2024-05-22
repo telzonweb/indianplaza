@@ -394,6 +394,215 @@
 
 // export default SectioncategoryLayout;
 
+// import { motion } from "framer-motion";
+
+// export const iconBoxes = [
+//   {
+//     src: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35900930-39fc-4f51-861a-fa5fdfcd6e56.__CR0,0,970,300_PT0_SX970_V1___.png",
+//     title: "Everest Spices",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.kz0YK5KH_vPajd6gN_jd9QHaC9&pid=Api&P=0&h=180",
+//     title: "Noodles",
+//   },
+//   {
+//     src: "https://tse4.mm.bing.net/th?id=OIP.InYi0kHXXn2-BKqflSEr7QHaD9&pid=Api&P=0&h=180",
+//     title: "Cadbury Dairy Milk",
+//   },
+//   {
+//     src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+//     title: "Biscuits",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+//     title: "Mix Farsan",
+//   },
+//   {
+//     src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+//     title: "Lay's",
+//   },
+//   {
+//     src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+//     title: "Biscuits",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+//     title: "Mix Farsan",
+//   },
+//   {
+//     src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+//     title: "Lay's",
+//   },
+//   {
+//     src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+//     title: "Biscuits",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+//     title: "Mix Farsan",
+//   },
+//   {
+//     src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+//     title: "Lay's",
+//   },
+//   // Add more categories as needed
+// ];
+
+// const fadeInAnimationVariants = {
+//   initial: {
+//     opacity: 0,
+//     y: 60,
+//   },
+//   animate: (index: number) => ({
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       delay: 0.05 * index,
+//     },
+//   }),
+// };
+
+// const SectioncategoryLayout = () => {
+//   return (
+//     <section className="py-16 lg:py-24">
+//       <div className="container">
+//         <div className="flex justify-center">
+//           <div className="text-center lg:w-3/5">
+//             <h2 className="mb-12">Explore Category</h2>
+//           </div>
+//         </div>
+//         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8 2xl:grid-cols-12 mr-10 ml-10">
+//           {iconBoxes.map((iconBox, index) => (
+//             <motion.div
+//               key={iconBox.title}
+//               variants={fadeInAnimationVariants}
+//               initial="initial"
+//               whileInView="animate"
+//               viewport={{ once: true }}
+//               transition={{
+//                 delay: 0.5,
+//               }}
+//               custom={index}
+//             >
+//               <div className="bg-white rounded-lg p-4 hover:shadow-md hover:scale-105 transition-shadow duration-300">
+//                 <div className="flex flex-col items-center justify-center text-center">
+//                   <img src={iconBox.src} alt={iconBox.title} className="mb-2 h-20 w-20 object-contain" />
+//                   <h3 className="text-sm font-semibold">{iconBox.title}</h3>
+//                 </div>
+//               </div>
+//             </motion.div>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default SectioncategoryLayout;
+
+// import { motion } from "framer-motion";
+
+// export const iconBoxes = [
+//   {
+//     src: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35900930-39fc-4f51-861a-fa5fdfcd6e56.__CR0,0,970,300_PT0_SX970_V1___.png",
+//     title: "Everest Spices",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.kz0YK5KH_vPajd6gN_jd9QHaC9&pid=Api&P=0&h=180",
+//     title: "Noodles",
+//   },
+//   {
+//     src: "https://tse4.mm.bing.net/th?id=OIP.InYi0kHXXn2-BKqflSEr7QHaD9&pid=Api&P=0&h=180",
+//     title: "Cadbury Dairy Milk",
+//   },
+//   {
+//     src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+//     title: "Biscuits",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+//     title: "Mix Farsan",
+//   },
+//   {
+//     src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+//     title: "Lay's",
+//   },
+//   {
+//     src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+//     title: "Biscuits",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+//     title: "Mix Farsan",
+//   },
+//   {
+//     src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+//     title: "Lay's",
+//   },
+//   {
+//     src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+//     title: "Biscuits",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+//     title: "Mix Farsan",
+//   },
+//   {
+//     src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+//     title: "Lay's",
+//   },
+//   // Add more categories as needed
+// ];
+
+// const fadeInAnimationVariants = {
+//   initial: {
+//     opacity: 0,
+//     y: 60,
+//   },
+//   animate: (index: number) => ({
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       delay: 0.05 * index,
+//     },
+//   }),
+// };
+
+// const SectioncategoryLayout = () => {
+//   return (
+//     <section className="py-16 lg:py-24">
+//       <div className="container mx-auto px-4">
+//         <div className="flex justify-center">
+//           <div className="text-center lg:w-3/5">
+//             <h2 className="mb-12">Explore Category</h2>
+//           </div>
+//         </div>
+//         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8 2xl:grid-cols-12">
+//           {iconBoxes.map((iconBox, index) => (
+//             <motion.div
+//               key={iconBox.title}
+//               variants={fadeInAnimationVariants}
+//               initial="initial"
+//               whileInView="animate"
+//               viewport={{ once: true }}
+//               custom={index}
+//             >
+//               <div className="bg-white rounded-lg p-4 hover:shadow-md hover:scale-105 transition-shadow duration-300">
+//                 <div className="flex flex-col items-center justify-center text-center">
+//                   <img src={iconBox.src} alt={iconBox.title} className="mb-2 h-20 w-20 object-contain" />
+//                   <h3 className="text-sm font-semibold">{iconBox.title}</h3>
+//                 </div>
+//               </div>
+//             </motion.div>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default SectioncategoryLayout;
+
 import { motion } from "framer-motion";
 
 export const iconBoxes = [
@@ -406,44 +615,44 @@ export const iconBoxes = [
     title: "Noodles",
   },
   {
-    src: "https://tse4.mm.bing.net/th?id=OIP.InYi0kHXXn2-BKqflSEr7QHaD9&pid=Api&P=0&h=180",
-    title: "Cadbury Dairy Milk",
-  },
-  {
-    src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
-    title: "Biscuits",
-  },
-  {
     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
-    title: "Mix Farsan",
+        title: "Mix Farsan",
+      },
+      {
+        src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+        title: "Lay's",
+      },
+      {
+        src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+        title: "Biscuits",
+      },
+      {
+            src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+            title: "Mix Farsan",
+          },
+          {
+            src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+            title: "Lay's",
+          },
+          {
+            src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+            title: "Biscuits",
+          },
+  {
+    src: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35900930-39fc-4f51-861a-fa5fdfcd6e56.__CR0,0,970,300_PT0_SX970_V1___.png",
+    title: "Everest Spices",
   },
   {
-    src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
-    title: "Lay's",
+    src: "https://tse3.mm.bing.net/th?id=OIP.kz0YK5KH_vPajd6gN_jd9QHaC9&pid=Api&P=0&h=180",
+    title: "Noodles",
   },
   {
-    src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
-    title: "Biscuits",
+    src: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35900930-39fc-4f51-861a-fa5fdfcd6e56.__CR0,0,970,300_PT0_SX970_V1___.png",
+    title: "Everest Spices",
   },
   {
-    src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
-    title: "Mix Farsan",
-  },
-  {
-    src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
-    title: "Lay's",
-  },
-  {
-    src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
-    title: "Biscuits",
-  },
-  {
-    src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
-    title: "Mix Farsan",
-  },
-  {
-    src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
-    title: "Lay's",
+    src: "https://tse3.mm.bing.net/th?id=OIP.kz0YK5KH_vPajd6gN_jd9QHaC9&pid=Api&P=0&h=180",
+    title: "Noodles",
   },
   // Add more categories as needed
 ];
@@ -453,7 +662,7 @@ const fadeInAnimationVariants = {
     opacity: 0,
     y: 60,
   },
-  animate: (index: number) => ({
+  animate: (index:number) => ({
     opacity: 1,
     y: 0,
     transition: {
@@ -465,13 +674,13 @@ const fadeInAnimationVariants = {
 const SectioncategoryLayout = () => {
   return (
     <section className="py-16 lg:py-24">
-      <div className="container">
+      <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <div className="text-center lg:w-3/5">
             <h2 className="mb-12">Explore Category</h2>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8 2xl:grid-cols-12 mr-10 ml-10">
+        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8">
           {iconBoxes.map((iconBox, index) => (
             <motion.div
               key={iconBox.title}
@@ -479,14 +688,11 @@ const SectioncategoryLayout = () => {
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
-              transition={{
-                delay: 0.5,
-              }}
               custom={index}
             >
               <div className="bg-white rounded-lg p-4 hover:shadow-md hover:scale-105 transition-shadow duration-300">
                 <div className="flex flex-col items-center justify-center text-center">
-                  <img src={iconBox.src} alt={iconBox.title} className="mb-2 h-20 w-20 object-contain" />
+                  <img src={iconBox.src} alt={iconBox.title} className="mb-2 h-24 w-auto max-w-full object-contain" />
                   <h3 className="text-sm font-semibold">{iconBox.title}</h3>
                 </div>
               </div>
