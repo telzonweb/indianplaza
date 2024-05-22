@@ -152,29 +152,31 @@ const SectionImgPara = () => {
     </div>
         </div> */}
          <div className="relative flex flex-col md:flex-row p-6 mx-[5%] lg:mx-[10%]">
-      <div className="relative md:w-1/2 bg-[#F8F7F5] p-10 lg:px-16 lg:py-20 h-auto z-10 ">
-        <h1 className="text-4xl font-bold mb-4">
+      <div className="relative md:w-1/2 bg-[#F8F7F5] p-10 lg:px-14 lg:py-20 h-auto z-10">
+        <h1 className="text-4xl font-bold mb-8 mt-12">
           Save on products that do more, this May
         </h1>
-        <p className="text-lg mb-6">
+        <p className="text-lg mb-2">
           Now's the time to stock your fridge with products that support gut
           health, with up to 20% off our top picks. Celebrate our beautiful
-          planet with wallet-happy organic finds, in store and on Deliveroo.*
+          planet with wallet-happy organic finds, in store and on Deliveroo.
         </p>
-        <p className="text-sm mb-4">
+        {/* <p className="text-sm mb-4">
           *terms and conditions apply. See in store for details.
-        </p>
+        </p> */}
         {/* <button className="bg-green-800 text-white py-2 px-4 rounded hover:bg-green-700">
           Find Your Local Store
         </button> */}
       </div>
-      <div className="md:w-1/2 flex justify-center items-center  h-[90vh] border border-red-600">
+      <div className="md:w-1/1 flex justify-center items-center h-[90vh] border border-red-900">
         <img
           src="https://img.freepik.com/free-photo/seeds-jar-arrangement_23-2148917706.jpg?t=st=1716359355~exp=1716362955~hmac=b8c8e39e66dde4e3225b0808eaffc710d24565ffbc4693d6f95e60f426cd5bda&w=360"
-          alt="Promotional Product"
-          className="w-full h-full  object-cover"
+         alt="Promotional Product"
+          className="w-full h-full object-cover transform transition duration-500 hover:scale-110 custom-image-border"
+          style={{ width: "550px" }}
         />
       </div>
+
     </div>
 
 
@@ -202,7 +204,7 @@ const SectionImgPara = () => {
             />
           </div>
         </div> */}
-        <div className="flex flex-col md:flex-row mb-5  bg-gray-100">
+        {/* <div className="flex flex-col md:flex-row mb-5  bg-gray-100">
     <div className="md:w-1/2 w-full custom-content flex flex-col justify-center mt-20 bg-white p-8 rounded-lg shadow-md ml-6">
         <h2 className="text-1xl font-bold mb-7 text-gray-800">
             Salt (Sodium chloride)
@@ -222,8 +224,42 @@ const SectionImgPara = () => {
             style={{ maxWidth: "570px", maxHeight: "500px" }}
         />
     </div>
-        </div>
+        </div> */}
+    <div className="relative flex flex-col md:flex-row p-6 mx-[5%] lg:mx-[10%]">
+    <div className="md:w-1/1 flex justify-center items-center h-[90vh] border border-red-900">
+        <img
+          src="https://www.canr.msu.edu/outreach/uploads/images/salt-6728600_1280.jpg?language_id=1"
+         alt="Promotional Product"
+          className="w-full h-full object-cover transform transition duration-500 hover:scale-110 custom-image-border"
+          style={{ width: "550px" }}
+        />
+      </div>
+      <div className="relative md:w-1/2 bg-[#F8F7F5] p-10 lg:px-14 lg:py-20 h-auto z-10">
+        <h1 className="text-4xl font-bold mb-8 mt-12">
+          Save on products that do more, this May
+        </h1>
+        <p className="text-lg mb-2">
+          Now's the time to stock your fridge with products that support gut
+          health, with up to 20% off our top picks. Celebrate our beautiful
+          planet with wallet-happy organic finds, in store and on Deliveroo.
+        </p>
+        {/* <p className="text-sm mb-4">
+          *terms and conditions apply. See in store for details.
+        </p> */}
+        {/* <button className="bg-green-800 text-white py-2 px-4 rounded hover:bg-green-700">
+          Find Your Local Store
+        </button> */}
+      </div>
+      {/* <div className="md:w-1/1 flex justify-center items-center h-[90vh] border border-red-900">
+        <img
+          src="https://www.canr.msu.edu/outreach/uploads/images/salt-6728600_1280.jpg?language_id=1"
+         alt="Promotional Product"
+          className="w-full h-full object-cover transform transition duration-500 hover:scale-110 custom-image-border"
+          style={{ width: "550px" }}
+        />
+      </div> */}
 
+    </div>
       </div>
     </section>
   );
