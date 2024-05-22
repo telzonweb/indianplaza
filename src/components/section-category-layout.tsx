@@ -671,14 +671,14 @@ const fadeInAnimationVariants = {
 
 const SectioncategoryLayout = () => {
   return (
-    <section className="py-16 lg:py-24">
+    <section className="py-16 lg:mx-[10%] lg:py-24 ">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <div className="text-center lg:w-3/5">
             <h2 className="mb-12">Wide Range of Categories</h2>
           </div>
         </div>
-        <div className="2xl:grid-cols-8 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+        <div className="2xl:grid-cols-8 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 ">
           {iconBoxes.map((iconBox, index) => (
             <motion.div
               key={iconBox.title}
