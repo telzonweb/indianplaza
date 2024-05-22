@@ -103,6 +103,8 @@
 //   );
 // };
 
+
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules";
@@ -121,39 +123,82 @@ const imgArray = [
 ];
 
 export const SwiperBrand = () => {
-  // Group images into sets of four
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 640);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 640);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const imgSets = [];
   for (let i = 0; i < imgArray.length; i += 5) {
     imgSets.push(imgArray.slice(i, i + 5));
   }
+  const imgSetsMobile = [];
+  for (let i = 0; i < imgArray.length; i += 3) {
+    imgSetsMobile.push(imgArray.slice(i, i + 3));
+  }
 
   return (
-    <>
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 1500,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Navigation]}
-        loop={true}
-        className="mySwiper"
-      >
-        {imgSets.map((set, index) => (
-          <SwiperSlide key={index}>
-            <div className="flex justify-between gap-6">
-              {set.map((imglink, key) => (
-                <div key={key} className="w-1/4">
-                  <img src={imglink} alt="" className="w-full h-auto" style={{ maxWidth: '100px', maxHeight: '100px' }} />
-                </div>
-              ))}
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </>
+    <Swiper
+      spaceBetween={30}
+      centeredSlides={true}
+      autoplay={{
+        delay: 1500,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      }}
+      navigation={true}
+      modules={[Autoplay, Navigation]}
+      loop={true}
+      className="mySwiper"
+      breakpoints={{
+        640: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+        },
+        641: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+        },
+      }}
+    >
+      {isMobile
+        ? imgSetsMobile.map((set, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex justify-between gap-6">
+                {set.map((imglink, key) => (
+                  <div key={key} className="w-1/3">
+                    <img
+                      src={imglink}
+                      alt=""
+                      className="w-full h-auto"
+                      style={{ maxWidth: "100px", maxHeight: "100px" }}
+                    />
+                  </div>
+                ))}
+              </div>
+            </SwiperSlide>
+          ))
+        : imgSets.map((set, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex justify-between gap-6">
+                {set.map((imglink, key) => (
+                  <div key={key} className="w-1/5">
+                    <img
+                      src={imglink}
+                      alt=""
+                      className="w-full h-auto"
+                      style={{ maxWidth: "100px", maxHeight: "100px" }}
+                    />
+                  </div>
+                ))}
+              </div>
+            </SwiperSlide>
+          ))}
+    </Swiper>
   );
 };
