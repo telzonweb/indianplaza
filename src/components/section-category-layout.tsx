@@ -159,7 +159,6 @@
 
 // export default SectioncategoryLayout;
 
-
 // import { motion } from "framer-motion";
 
 // export const iconBoxes = [
@@ -246,7 +245,7 @@
 //               <div className={`bg-white rounded-lg p-10 ${iconBox.shadow} hover:shadow-md hover:scale-105 transition-shadow duration-300`} style={{ height: "300px" }}>
 //                 <div className="flex flex-col items-center justify-center h-full text-center">
 //                   <img src={iconBox.src} alt={iconBox.title} className="mb-4 h-24 w-auto" />
-//                   <h3 className="text-lg font-semibold mb-4">{iconBox.title}</h3> 
+//                   <h3 className="text-lg font-semibold mb-4">{iconBox.title}</h3>
 //                   <p className="text-gray-600">{iconBox.description}</p>
 //                 </div>
 //               </div>
@@ -259,7 +258,6 @@
 // };
 
 // export default SectioncategoryLayout;
-
 
 // import { motion } from "framer-motion";
 
@@ -616,28 +614,28 @@ export const iconBoxes = [
   },
   {
     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
-        title: "Mix Farsan",
-      },
-      {
-        src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
-        title: "Lay's",
-      },
-      {
-        src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
-        title: "Biscuits",
-      },
-      {
-            src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
-            title: "Mix Farsan",
-          },
-          {
-            src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
-            title: "Lay's",
-          },
-          {
-            src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
-            title: "Biscuits",
-          },
+    title: "Mix Farsan",
+  },
+  {
+    src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+    title: "Lay's",
+  },
+  {
+    src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+    title: "Biscuits",
+  },
+  {
+    src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+    title: "Mix Farsan",
+  },
+  {
+    src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+    title: "Lay's",
+  },
+  {
+    src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+    title: "Biscuits",
+  },
   {
     src: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35900930-39fc-4f51-861a-fa5fdfcd6e56.__CR0,0,970,300_PT0_SX970_V1___.png",
     title: "Everest Spices",
@@ -662,7 +660,7 @@ const fadeInAnimationVariants = {
     opacity: 0,
     y: 60,
   },
-  animate: (index:number) => ({
+  animate: (index: number) => ({
     opacity: 1,
     y: 0,
     transition: {
@@ -677,10 +675,10 @@ const SectioncategoryLayout = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <div className="text-center lg:w-3/5">
-            <h2 className="mb-12">Explore Category</h2>
+            <h2 className="mb-12">Wide Range of Categories</h2>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8">
+        <div className="2xl:grid-cols-8 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
           {iconBoxes.map((iconBox, index) => (
             <motion.div
               key={iconBox.title}
@@ -690,9 +688,13 @@ const SectioncategoryLayout = () => {
               viewport={{ once: true }}
               custom={index}
             >
-              <div className="bg-white rounded-lg p-4 hover:shadow-md hover:scale-105 transition-shadow duration-300">
+              <div className="rounded-lg bg-white p-4 shadow-sm transition-shadow duration-300 hover:scale-105 hover:shadow-lg">
                 <div className="flex flex-col items-center justify-center text-center">
-                  <img src={iconBox.src} alt={iconBox.title} className="mb-2 h-24 w-auto max-w-full object-contain" />
+                  <img
+                    src={iconBox.src}
+                    alt={iconBox.title}
+                    className="mb-2 h-24 w-auto max-w-full rounded-xl object-contain"
+                  />
                   <h3 className="text-sm font-semibold">{iconBox.title}</h3>
                 </div>
               </div>

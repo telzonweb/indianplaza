@@ -20,7 +20,7 @@ const HomeConsulting = useFramerTransition(
     </Helmet>
     <main className="relative">
       <SectionHeroLayout3 />
-      <SectionImgPara/>
+      <SectionImgPara />
       {/* <Sectionourstore /> */}
       {/* <SectionBenefits /> */}
       {/* <SectionIconBoxesLayout2 /> */}
@@ -29,7 +29,7 @@ const HomeConsulting = useFramerTransition(
       <SectionTestimonialsSliderLayout2 />
       <SectionFAQ />
       <SectionCTALayout3 />
-      <AddressComponent/>
+      {/* <AddressComponent /> */}
     </main>
   </>,
 );
