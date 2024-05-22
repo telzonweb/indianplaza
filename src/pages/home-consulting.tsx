@@ -13,6 +13,7 @@ import SectioncategoryLayout from "@/components/section-category-layout";
 import AddressComponent from "@/components/AddressComponent";
 import SectionImgPara from "@/components/sections/section-imgpara";
 import SectionImgStory from "@/components/sections/SectionImgStory";
+import SectionImg from "@/components/sections/section-img";
 
 const HomeConsulting = useFramerTransition(
   <>
@@ -28,6 +29,7 @@ const HomeConsulting = useFramerTransition(
       {/* <SectionIconBoxesLayout2 /> */}
       <SectioncategoryLayout />
       <SectionPartnersLayout2 />
+      <SectionImg/>
       <SectionTestimonialsSliderLayout2 />
       <SectionFAQ />
       <SectionCTALayout3 />
