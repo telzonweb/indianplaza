@@ -130,7 +130,7 @@ const SectionImgPara = () => {
     </p>
   </div>
         </div> */}
-        <div className="flex flex-col md:flex-row mb-5  bg-gray-100">
+        {/* <div className="flex flex-col md:flex-row mb-5  bg-gray-100">
         <div className="md:w-1/2 w-full custom-image md:ml-20 md:mt-20">
         <img
             src="https://tse4.mm.bing.net/th?id=OIP.HsaRHc0Y0TH64YlNcLpN0wHaEh&pid=Api&P=0&h=180"
@@ -150,7 +150,32 @@ const SectionImgPara = () => {
         Jeera or cumin seed is an ancient Indian spice, which has been used since the Vedic times. Ayurveda prescribes jeera as a remedy for several health problems. So wise were our grannies that they decided to add it to their spice box and use it in everyday cooking, to ensure its sustained health benefits to the family..
         </p>
     </div>
-        </div>
+        </div> */}
+         <div className="relative flex flex-col md:flex-row p-6 mx-[5%] lg:mx-[10%]">
+      <div className="relative md:w-1/2 bg-[#F8F7F5] p-10 lg:px-16 lg:py-20 h-auto z-10 ">
+        <h1 className="text-4xl font-bold mb-4">
+          Save on products that do more, this May
+        </h1>
+        <p className="text-lg mb-6">
+          Now's the time to stock your fridge with products that support gut
+          health, with up to 20% off our top picks. Celebrate our beautiful
+          planet with wallet-happy organic finds, in store and on Deliveroo.*
+        </p>
+        <p className="text-sm mb-4">
+          *terms and conditions apply. See in store for details.
+        </p>
+        {/* <button className="bg-green-800 text-white py-2 px-4 rounded hover:bg-green-700">
+          Find Your Local Store
+        </button> */}
+      </div>
+      <div className="md:w-1/2 flex justify-center items-center  h-[90vh] border border-red-600">
+        <img
+          src="https://img.freepik.com/free-photo/seeds-jar-arrangement_23-2148917706.jpg?t=st=1716359355~exp=1716362955~hmac=b8c8e39e66dde4e3225b0808eaffc710d24565ffbc4693d6f95e60f426cd5bda&w=360"
+          alt="Promotional Product"
+          className="w-full h-full  object-cover"
+        />
+      </div>
+    </div>
 
 
 
