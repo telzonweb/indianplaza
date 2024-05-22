@@ -2,15 +2,15 @@ import React from "react";
 
 const RiceStory = () => {
   return (
-    <div className="relative mx-[5%] flex flex-col rounded-xl p-6 shadow-sm md:flex-row lg:mx-[10%]">
-      <div className="flex h-[90vh] items-center justify-center  md:w-1/2 ">
+    <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl p-6 shadow-sm md:flex-row lg:mx-[10%]">
+      <div className="flex items-center justify-center md:w-1/2  lg:h-[90vh] ">
         <img
           src="https://img.freepik.com/free-photo/young-lady-covered-by-red-jacket-with-green-field_181624-29480.jpg?t=st=1716364119~exp=1716367719~hmac=63945a30c0ee8895283ad98ad46dcc576f3bdbbec3b613148aef6afd0490d063&w=740"
           alt="Promotional Product"
           className="h-full w-full  rounded-lg object-cover"
         />
       </div>
-      <div className="relative z-10 h-auto  rounded-lg bg-[#ffc56d91] p-10 md:w-1/2 lg:px-16 lg:py-20 ">
+      <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-20 ">
         <h1 className="mb-4 text-4xl font-bold">
           Rice: The Essence of India's Heritage
         </h1>
