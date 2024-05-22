@@ -1,37 +1,46 @@
 import React from "react";
+import SectionTitle from "./section-title";
 
 const sectionImgStory = () => {
   return (
-    <div className="relative mx-[5%] flex flex-col p-6 md:flex-row lg:mx-[10%]">
-      <div className="relative z-10 h-auto bg-[#F8F7F5] p-10 md:w-1/2 lg:px-16 lg:py-20 ">
-        <h1 className="mb-4 text-4xl font-bold text-black">
-          Cumin: The Spice of India's Legacy
-        </h1>
-        <p className="mb-6 text-lg">
-          From the fertile fields of India, each grain of rice carries a story
-          of tradition and sustenance. Rooted in ancient practices, rice
-          nourishes our bodies and our heritage, bridging generations with every
-          harvest. Each grain is a testament to our cultural roots, embodying
-          the essence of life and tradition. Celebrate the staple that unites
-          us, reflecting the resilience and richness of India's agricultural
-          legacy in every mouthful.
-        </p>
-        <p className="mb-4 ">
-          Celebrate the staple that unites us, reflecting the resilience and
-          richness of India's agricultural legacy in every mouthful.
-        </p>
-        {/* <button className=" hover:bg-green-700 bg-green-800 rounded px-4 py-2 text-white">
+    <>
+      <SectionTitle
+        subtitle="Truly Indian"
+        sectionClasses="mx-auto max-w-xl text-center mb-12"
+        titleClasses="mb-3 text-center"
+        subtitleClasses="text-md font-large"
+      >
+        Our Roots
+      </SectionTitle>
+
+      <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl p-6 shadow-sm md:flex-row lg:mx-[10%]">
+        <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-20 ">
+          <h1 className="font-Caveat mb-4 text-4xl font-bold">
+            Cumin: The Spice of India's Legacy
+          </h1>
+          <p className=" mb-6 text-lg text-[#000]">
+            From the heart of India's vibrant fields, cumin seeds capture the
+            essence of our rich heritage. Infusing flavor into every dish, these
+            tiny seeds carry centuries of tradition, connecting past and
+            present. Each seed tells a story of ancient culinary artistry and
+            medicinal wisdom, integral to our culture. Celebrate the spice that
+            embodies the warmth, depth, and richness of Indian heritage, uniting
+            generations through its unmistakable aroma and taste.
+          </p>
+
+          {/* <button className=" hover:bg-green-700 bg-green-800 rounded px-4 py-2 text-white">
           Find Your Local Store
         </button> */}
+        </div>
+        <div className="flex items-center justify-center md:w-1/2  lg:h-[90vh] ">
+          <img
+            src="https://img.freepik.com/free-photo/seeds-jar-arrangement_23-2148917706.jpg?t=st=1716359355~exp=1716362955~hmac=b8c8e39e66dde4e3225b0808eaffc710d24565ffbc4693d6f95e60f426cd5bda&w=360"
+            alt="Promotional Product"
+            className="h-full w-full  rounded-lg object-cover"
+          />
+        </div>
       </div>
-      <div className="flex h-[90vh] items-center justify-center  md:w-1/2 ">
-        <img
-          src="https://img.freepik.com/free-photo/seeds-jar-arrangement_23-2148917706.jpg?t=st=1716359355~exp=1716362955~hmac=b8c8e39e66dde4e3225b0808eaffc710d24565ffbc4693d6f95e60f426cd5bda&w=360"
-          alt="Promotional Product"
-          className="h-full w-full  rounded-lg object-cover"
-        />
-      </div>
-    </div>
+    </>
   );
 };
 

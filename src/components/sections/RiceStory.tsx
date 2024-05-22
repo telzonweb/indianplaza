@@ -11,7 +11,7 @@ const RiceStory = () => {
         />
       </div>
       <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-20 ">
-        <h1 className="mb-4 text-4xl font-bold">
+        <h1 className="font-Caveat mb-4 text-4xl font-bold">
           Rice: The Essence of India's Heritage
         </h1>
         <p className="mb-6 text-lg text-[#000]">

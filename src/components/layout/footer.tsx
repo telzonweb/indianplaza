@@ -33,9 +33,7 @@ const Footer = () => {
                 /> */}
                 <img src="/ipLogoWide.png" alt="ipLogo" className="w-[160px]" />
               </Link>
-              <p className="mb-8 mt-6">
-                Tools to Effectively Build Your Brand and Grow Your Business.
-              </p>
+              <p className="mb-8 mt-6">Truly Indian</p>
               <div className="flex space-x-2">
                 {/* <a
                   href="#"

@@ -38,6 +38,13 @@ module.exports = {
       "6xl": ["3.5rem", { lineHeight: "normal" }],
       "7xl": ["4rem", { lineHeight: "normal" }],
     },
+    fontFamily: {
+      caveat: ["Caveat", "cursive"],
+      Caveat: ["Caveat", "Caveat"],
+      DM: ["DM Sans", "sans-serif"],
+      PTSans: ["PT Sans", "sans-serif"],
+      Libre: ["Libre Baskerville", "serif"],
+    },
     extend: {
       colors: {
         slate: {

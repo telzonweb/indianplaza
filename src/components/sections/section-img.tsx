@@ -40,30 +40,34 @@ import "swiper/css/pagination";
 
 export const testimonials = [
   {
-    image: "https://media.starquik.com/bannerslider/m/a/may_24_celebration_01.png",
+    image:
+      "https://media.starquik.com/bannerslider/m/a/may_24_celebration_01.png",
   },
   {
-    image: "https://media.starquik.com/bannerslider/m/a/may_br_24_celebration_02.png",
+    image:
+      "https://media.starquik.com/bannerslider/m/a/may_br_24_celebration_02.png",
   },
   {
-    image: "https://media.starquik.com/bannerslider/m/a/may_br_24_celebration_03.png",
+    image:
+      "https://media.starquik.com/bannerslider/m/a/may_br_24_celebration_03.png",
   },
   {
-    image: "https://media.starquik.com/bannerslider/m/a/may_br_24_celebration_03.png",
+    image:
+      "https://media.starquik.com/bannerslider/m/a/may_br_24_celebration_03.png",
   },
 ];
 
 const SectionImg = () => {
   return (
     <section className="overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
-      <div className="container overflow-hidden relative xl:left-[calc((100vw-1312px)/4)] xl:max-w-[calc(1312px+((100vw-1312px)/2))] xl:pr-[calc((100vw-1280px)/2)]">
+      <div className="container relative overflow-hidden xl:left-[calc((100vw-1312px)/4)] xl:max-w-[calc(1312px+((100vw-1312px)/2))] xl:pr-[calc((100vw-1280px)/2)]">
         <SectionTitle
           // subtitle="10,000k+ Customers those who already tried our services."
           sectionClasses="mx-auto max-w-xl text-center mb-12"
           titleClasses="mb-3 text-center"
           subtitleClasses="text-md font-medium"
         >
-         Combo
+          Explore Top Offers
         </SectionTitle>
         <TestimonialsSliderLayout2
           testimonials={testimonials}
