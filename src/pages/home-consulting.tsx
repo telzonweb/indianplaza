@@ -12,6 +12,7 @@ import { SwiperElement } from "@/components/extra/SwiperElement";
 import SectioncategoryLayout from "@/components/section-category-layout";
 import AddressComponent from "@/components/AddressComponent";
 import SectionImgPara from "@/components/sections/section-imgpara";
+import SectionImgStory from "@/components/sections/SectionImgStory";
 
 const HomeConsulting = useFramerTransition(
   <>
@@ -20,7 +21,8 @@ const HomeConsulting = useFramerTransition(
     </Helmet>
     <main className="relative">
       <SectionHeroLayout3 />
-      <SectionImgPara />
+      {/* <SectionImgPara /> */}
+      <SectionImgStory />
       {/* <Sectionourstore /> */}
       {/* <SectionBenefits /> */}
       {/* <SectionIconBoxesLayout2 /> */}
