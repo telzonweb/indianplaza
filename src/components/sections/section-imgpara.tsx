@@ -109,7 +109,7 @@ const SectionImgPara = () => {
 </div>
 
         </div> */}
-        <div className="flex flex-col md:flex-row mb-6">
+        {/* <div className="flex flex-col md:flex-row mb-6">
   <div className="md:w-1/2 w-full custom-image md:mr-0 mb-3 md:mb-3 md:ml-4">
     <img
       src="https://tse4.mm.bing.net/th?id=OIP.HsaRHc0Y0TH64YlNcLpN0wHaEh&pid=Api&P=0&h=180"
@@ -129,7 +129,29 @@ const SectionImgPara = () => {
       Jeera or cumin seed is an ancient Indian spice, which has been used since the Vedic times. Ayurveda prescribes jeera as a remedy for several health problems. So wise were our grannies that they decided to add it to their spice box and use it in everyday cooking, to ensure its sustained health benefits to the family.
     </p>
   </div>
-</div>
+        </div> */}
+        <div className="flex flex-col md:flex-row mb-5  bg-gray-100">
+        <div className="md:w-1/2 w-full custom-image md:ml-20 md:mt-20">
+        <img
+            src="https://tse4.mm.bing.net/th?id=OIP.HsaRHc0Y0TH64YlNcLpN0wHaEh&pid=Api&P=0&h=180"
+            alt="about"
+            className="w-full h-auto rounded-lg shadow-lg transform transition duration-500 hover:scale-105 custom-image-border"
+            style={{ maxWidth: "570px", maxHeight: "500px" }}
+        />
+    </div>
+    <div className="md:w-1/2 w-full custom-content flex flex-col justify-center mt-20 bg-white p-8 rounded-lg shadow-md ml-6">
+        <h2 className="text-1xl font-bold mb-7 text-gray-800">
+        The Power of Jeera (Cumin Seed)
+        </h2>
+        <p className="mb-6  text-gray-700 leading-relaxed">
+        Jeera or cumin seed is an ancient Indian spice, which has been used since the Vedic times. Ayurveda prescribes jeera as a remedy for several health problems. So wise were our grannies that they decided to add it to their spice box and use it in everyday cooking, to ensure its sustained health benefits to the family.
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+        Jeera or cumin seed is an ancient Indian spice, which has been used since the Vedic times. Ayurveda prescribes jeera as a remedy for several health problems. So wise were our grannies that they decided to add it to their spice box and use it in everyday cooking, to ensure its sustained health benefits to the family..
+        </p>
+    </div>
+        </div>
+
 
 
 <br/>
@@ -175,7 +197,7 @@ const SectionImgPara = () => {
             style={{ maxWidth: "570px", maxHeight: "500px" }}
         />
     </div>
-</div>
+        </div>
 
       </div>
     </section>
