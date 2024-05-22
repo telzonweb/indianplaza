@@ -605,11 +605,11 @@ import { motion } from "framer-motion";
 
 export const iconBoxes = [
   {
-    src: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35900930-39fc-4f51-861a-fa5fdfcd6e56.__CR0,0,970,300_PT0_SX970_V1___.png",
+    src: "https://img1.exportersindia.com/product_images/bc-full/2020/11/7759953/everest-spices-1606386515-5641404.jpeg",
     title: "Everest Spices",
   },
   {
-    src: "https://tse3.mm.bing.net/th?id=OIP.kz0YK5KH_vPajd6gN_jd9QHaC9&pid=Api&P=0&h=180",
+    src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
     title: "Noodles",
   },
   {
@@ -617,11 +617,11 @@ export const iconBoxes = [
     title: "Mix Farsan",
   },
   {
-    src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+    src: "https://tse4.mm.bing.net/th?id=OIP.BM-LStUWJ5TjQHIcD2pQ_QHaFj&pid=Api&P=0&h=180",
     title: "Lay's",
   },
   {
-    src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+    src: "https://wallpapercave.com/wp/wp2422343.jpg",
     title: "Biscuits",
   },
   {
@@ -629,27 +629,27 @@ export const iconBoxes = [
     title: "Mix Farsan",
   },
   {
-    src: "https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png",
+    src: "https://tse4.mm.bing.net/th?id=OIP.BM-LStUWJ5TjQHIcD2pQ_QHaFj&pid=Api&P=0&h=180",
     title: "Lay's",
   },
   {
-    src: "https://5.imimg.com/data5/LT/TI/MY-29443006/cream-biscuits-2c-chocolate-biscuits-2c-glucose-biscuits-2c-butter-biscuits-and-many-more-1000x1000.jpg",
+    src: "https://wallpapercave.com/wp/wp2422343.jpg",
     title: "Biscuits",
   },
   {
-    src: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35900930-39fc-4f51-861a-fa5fdfcd6e56.__CR0,0,970,300_PT0_SX970_V1___.png",
+    src: "https://img1.exportersindia.com/product_images/bc-full/2020/11/7759953/everest-spices-1606386515-5641404.jpeg",
     title: "Everest Spices",
   },
   {
-    src: "https://tse3.mm.bing.net/th?id=OIP.kz0YK5KH_vPajd6gN_jd9QHaC9&pid=Api&P=0&h=180",
+    src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
     title: "Noodles",
   },
   {
-    src: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35900930-39fc-4f51-861a-fa5fdfcd6e56.__CR0,0,970,300_PT0_SX970_V1___.png",
+    src: "https://img1.exportersindia.com/product_images/bc-full/2020/11/7759953/everest-spices-1606386515-5641404.jpeg",
     title: "Everest Spices",
   },
   {
-    src: "https://tse3.mm.bing.net/th?id=OIP.kz0YK5KH_vPajd6gN_jd9QHaC9&pid=Api&P=0&h=180",
+    src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
     title: "Noodles",
   },
   // Add more categories as needed
