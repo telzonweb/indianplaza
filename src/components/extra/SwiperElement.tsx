@@ -10,15 +10,14 @@ import "swiper/css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const imgArray = [
-  "https://img.freepik.com/free-photo/buying-food-grocery-store_342744-1129.jpg?t=st=1715938523~exp=1715942123~hmac=0263287c242824d3ad0503e86d6dbf0006dd85305128bd3bea8e390ca8b3bc2a&w=740",
-  "https://img.freepik.com/free-photo/woman-with-tablet-checking-shopping-cart-see-if-she-has-everything-she-needs-lunch_342744-1111.jpg?t=st=1715938561~exp=1715942161~hmac=97c7a245376555d905060ee1fd454b0021bcbbec55affac611465a9b5b73a12d&w=740",
-  "https://img.freepik.com/free-photo/buying-food-grocery-store_342744-1129.jpg?t=st=1715938523~exp=1715942123~hmac=0263287c242824d3ad0503e86d6dbf0006dd85305128bd3bea8e390ca8b3bc2a&w=740",
-  "https://img.freepik.com/free-photo/woman-with-tablet-checking-shopping-cart-see-if-she-has-everything-she-needs-lunch_342744-1111.jpg?t=st=1715938561~exp=1715942161~hmac=97c7a245376555d905060ee1fd454b0021bcbbec55affac611465a9b5b73a12d&w=740",
+  "https://img.freepik.com/free-photo/red-brown-white-rice-bowls-wooden-background_23-2147883334.jpg?t=st=1716446824~exp=1716450424~hmac=65265c368b2a880e3a81500bdc4a2cf45b9acc7e49e26e47dc09f8f751133647&w=826",
+  "https://img.freepik.com/free-photo/top-view-wooden-bowls-with-rice-corn-seeds-pumpkin-seeds-beans-lentiles-thin-pasta-different-spices-grey-background_140725-145832.jpg?t=st=1716446566~exp=1716450166~hmac=1a95b0fcfb15fd57ca805c6a87dbecd8ca3f22fbb5ff7c17a1fb965ec1007335&w=740",
+  "https://img.freepik.com/free-photo/flat-lay-tasty-jewish-food-assortment_23-2148814454.jpg?t=st=1716446670~exp=1716450270~hmac=2671e8047785ce1ddbce28fcc64fffca92b41d4a19978e47765cc5ce8f6485a1&w=996",
 ];
 
 export const SwiperElement = () => {
   return (
-    <>
+    <div className="">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -40,7 +39,7 @@ export const SwiperElement = () => {
             key={key}
             className="flex h-[90vh] items-center justify-center"
           >
-            <div className="mx-auto flex h-[90%] w-[90%] items-center justify-center rounded-2xl  ">
+            <div className="mx-auto flex h-[90vh]  items-center justify-center rounded-2xl  ">
               <img
                 src={imglink}
                 alt=""
@@ -50,6 +49,6 @@ export const SwiperElement = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 };

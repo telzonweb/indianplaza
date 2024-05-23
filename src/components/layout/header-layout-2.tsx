@@ -31,10 +31,11 @@ const HeaderLayout2 = () => {
 
   return (
     <>
-      <header className="fixed top-0 z-20 w-full ">
+      {/* <header className="fixed top-0 z-20 w-full "> */}
+      <header className="sticky top-0  z-20 w-full ">
         <div
           className={cn(
-            "flex items-center px-4 py-5 transition-all lg:py-12 xl:px-20",
+            "flex items-center px-4 py-5 transition-all lg:py-6 xl:px-20",
             stickyClass,
           )}
         >
@@ -50,7 +51,7 @@ const HeaderLayout2 = () => {
 
           <div className="relative flex w-full items-center justify-end lg:bg-transparent">
             <MainNav items={mainNav} />
-            {/* <DarkModeSwitch className="mr-3" /> */}
+            <DarkModeSwitch className="mr-3" />
             {/* <SiteSearch /> */}
             <div className="hidden lg:flex">{/* <Offcanvas /> */}</div>
             <MobileNav mainNavItems={mainNav} triggerIcon="style-2" />

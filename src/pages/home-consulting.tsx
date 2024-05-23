@@ -22,7 +22,8 @@ const HomeConsulting = useFramerTransition(
       <title>Indian Plaza : Top Grocery Store in Melbourne</title>
     </Helmet>
     <main className="relative">
-      <SectionHeroLayout3 />
+      <SwiperElement />
+      {/* <SectionHeroLayout3 /> */}
       {/* <SectionImgPara /> */}
       <SectionImgStory />
       {/* <Sectionourstore /> */}
@@ -30,7 +31,7 @@ const HomeConsulting = useFramerTransition(
       {/* <SectionIconBoxesLayout2 /> */}
       <SectioncategoryLayout />
       <SectionPartnersLayout2 />
-      <SectionImg/>
+      <SectionImg />
       <RiceStory />
       <SectionTestimonialsSliderLayout2 />
       <SectionFAQ />
