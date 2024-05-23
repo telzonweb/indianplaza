@@ -125,7 +125,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-600 text-white">
+    <footer className="bg-orange-300 text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="mb-8 md:mb-0 md:w-1/2">
@@ -184,7 +184,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-gray-700 py-6">
         <div className="container mx-auto text-center">
-          <span className="text-xs text-gray-400">
+          <span className="text-xs text-white-400">
             © {new Date().getFullYear()} Indian Plaza, Made by{" "}
             <a href="https://telzonmarketing.in" className="hover:text-primary">
               Telzon Marketing
