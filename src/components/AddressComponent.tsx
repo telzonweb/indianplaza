@@ -64,65 +64,73 @@
 // export default AddressComponent;
 
 
-import React from 'react';
+import React from "react";
+import SectionTitle from "./sections/section-title";
+
+// Address data
+export const SectionAddresses = [
+  {
+    title: "Enfield",
+    address: "431-435 Main North Rd ENFIELD, SA 5085",
+    buttonText: "Google Map",
+    buttonLink: "https://www.google.co.in/maps",
+  },
+  {
+    title: "Firle",
+    address: "1/161 Glynburn Rd FIRLE, SA 5070",
+    buttonText: "Google Map",
+    buttonLink: "https://www.google.co.in/maps",
+  },
+  {
+    title: "Torrensville",
+    address: "224 Henley Beach Rd TORRENSVILLE, 5031",
+    buttonText: "Google Map",
+    buttonLink: "https://www.google.co.in/maps",
+  },
+  {
+    title: "Plympton",
+    address: "Indian Traders 345 Anzac Hwy PLYMPTON, SA 5038",
+    buttonText: "Google Map",
+    buttonLink: "https://www.google.co.in/maps",
+  },
+];
 
 const AddressComponent = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-gray-100 h-full pt-5">
-      <h1 className="text-3xl font-bold mb-2">Our Locations</h1>
-      <div className="flex flex-nowrap justify-center items-start max-w-full">
-        <div className="flex-none w-full md:w-1/2 lg:w-1/4 m-4">
-          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transform hover:scale-105 transition-all duration-300 h-64">
-            <h2 className="font-bold mb-2 text-lg">Enfield</h2>
-            <p>431-435 Main North Rd</p>
-            <p>ENFIELD, SA 5085</p><br></br>
-            <a href="https://www.google.co.in/maps/" target="_blank" rel="noopener noreferrer">
-              <button className="mt-4 text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300">
-                Google Map
-              </button>
-            </a>
-          </div>
+    <section className="overflow-hidden bg-gradient-to-b from-[#EBE4FA]/26 to-muted/26 py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
+      <div className="container relative overflow-hidden xl:left-[calc((100vw-1312px)/4)] xl:max-w-[calc(1312px+((100vw-1312px)/2))] xl:pr-[calc((100vw-1280px)/2)]">
+        <SectionTitle
+          sectionClasses="mx-auto max-w-xl text-center mb-12"
+          titleClasses="mb-3 text-center"
+          subtitleClasses="text-md font-medium"
+        >
+          Visit Us
+        </SectionTitle>
+        <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-2 lg:grid-cols-4">
+          {SectionAddresses.map((address, index) => (
+            <div
+              key={index}
+              className="p-6 border rounded-lg shadow-md bg-white dark:bg-gray-800"
+            >
+              <p className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                {address.title}
+              </p>
+              <p className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                {address.address}
+              </p>
+              <a
+                href={address.buttonLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
+              >
+                {address.buttonText}
+              </a>
+            </div>
+          ))}
         </div>
-        <div className="flex-none w-full md:w-1/2 lg:w-1/4 m-4">
-          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transform hover:scale-105 transition-all duration-300 h-64">
-            <h2 className="font-bold mb-2 text-lg">Firle</h2>
-            <p>1/161 Glynburn Rd</p>
-            <p>FIRLE, SA 5070</p><br></br>
-            <a href="https://www.google.co.in/maps/" target="_blank" rel="noopener noreferrer">
-              <button className="mt-4 text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300">
-                Google Map
-              </button>
-            </a>
-          </div>
-        </div>
-        <div className="flex-none w-full md:w-1/2 lg:w-1/4 m-4">
-          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transform hover:scale-105 transition-all duration-300 h-64">
-            <h2 className="font-bold mb-2 text-lg">Torrensville</h2>
-            <p>224 Henley Beach Rd</p>
-            <p>TORRENSVILLE, 5031</p><br></br>
-            <a href="https://www.google.co.in/maps/" target="_blank" rel="noopener noreferrer">
-              <button className="mt-4 text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300">
-                Google Map
-              </button>
-            </a>
-          </div>
-        </div>
-        <div className="flex-none w-full md:w-1/2 lg:w-1/4 m-4">
-          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transform hover:scale-105 transition-all duration-300 h-64">
-            <h2 className="font-bold mb-2 text-lg">Plympton</h2>
-            <p>Indian Traders<br />345 Anzac Hwy</p>
-            <p>PLYMPTON, SA 5038</p>
-            <a href="https://www.google.co.in/maps/" target="_blank" rel="noopener noreferrer">
-              <button className="mt-4 text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300">
-                Google Map
-              </button>
-            </a>
-          </div>
-        </div>
-
-        {/* Repeat the above structure for other addresses */}
       </div>
-    </div>
+    </section>
   );
 };
 
