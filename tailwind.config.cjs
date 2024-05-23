@@ -44,6 +44,8 @@ module.exports = {
       DM: ["DM Sans", "sans-serif"],
       PTSans: ["PT Sans", "sans-serif"],
       Libre: ["Libre Baskerville", "serif"],
+      italiana: ["Italiana", "serif"],
+      worksans: ["Work Sans", "sans-serif"],
     },
     extend: {
       colors: {

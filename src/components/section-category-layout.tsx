@@ -602,6 +602,7 @@
 // export default SectioncategoryLayout;
 
 import { motion } from "framer-motion";
+import SectionTitle from "./sections/section-title";
 
 export const iconBoxes = [
   {
@@ -673,11 +674,14 @@ const SectioncategoryLayout = () => {
   return (
     <section className="py-16 lg:mx-[10%] lg:py-24 ">
       <div className="container mx-auto px-4">
-        <div className="flex justify-center">
-          <div className="text-center lg:w-3/5">
-            <h2 className="mb-12">Categories</h2>
-          </div>
-        </div>
+        <SectionTitle
+          // subtitle="Truly Indian"
+          sectionClasses="mx-auto max-w-xl text-center mb-12"
+          titleClasses="mb-3 text-center "
+          subtitleClasses="text-md font-large "
+        >
+          Wide Range Of Categories
+        </SectionTitle>
         <div className="2xl:grid-cols-8 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 ">
           {iconBoxes.map((iconBox, index) => (
             <motion.div

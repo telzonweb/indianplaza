@@ -15,6 +15,7 @@ import AddressComponent from "@/components/AddressComponent";
 import SectionImg from "@/components/sections/section-img";
 import RiceStory from "@/components/sections/RiceStory";
 import CuminStory from "@/components/sections/CuminStory";
+import { Cardamon } from "@/components/sections/Cardamon";
 
 const HomeConsulting = useFramerTransition(
   <>
@@ -35,6 +36,7 @@ const HomeConsulting = useFramerTransition(
       <RiceStory />
       {/* <SectionTestimonialsSliderLayout2 /> */}
       <SectionPartnersLayout2 />
+      <Cardamon />
       <SectionFAQ />
       <SectionCTALayout3 />
       {/* <AddressComponent /> */}
