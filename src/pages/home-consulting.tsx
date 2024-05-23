@@ -11,10 +11,10 @@ import { SwiperElement } from "@/components/extra/SwiperElement";
 // import Sectionourstore from "@/components/sections/section-our-store";
 import SectioncategoryLayout from "@/components/section-category-layout";
 import AddressComponent from "@/components/AddressComponent";
-import SectionImgPara from "@/components/sections/section-imgpara";
-import SectionImgStory from "@/components/sections/SectionImgStory";
+
 import SectionImg from "@/components/sections/section-img";
 import RiceStory from "@/components/sections/RiceStory";
+import CuminStory from "@/components/sections/CuminStory";
 
 const HomeConsulting = useFramerTransition(
   <>
@@ -25,15 +25,16 @@ const HomeConsulting = useFramerTransition(
       <SwiperElement />
       {/* <SectionHeroLayout3 /> */}
       {/* <SectionImgPara /> */}
-      <SectionImgStory />
       {/* <Sectionourstore /> */}
       {/* <SectionBenefits /> */}
       {/* <SectionIconBoxesLayout2 /> */}
+
+      {/* <SectionImg /> */}
+      <CuminStory />
       <SectioncategoryLayout />
-      <SectionPartnersLayout2 />
-      <SectionImg />
       <RiceStory />
-      <SectionTestimonialsSliderLayout2 />
+      {/* <SectionTestimonialsSliderLayout2 /> */}
+      <SectionPartnersLayout2 />
       <SectionFAQ />
       <SectionCTALayout3 />
       {/* <AddressComponent /> */}
