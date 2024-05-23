@@ -129,7 +129,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="mb-8 md:mb-0 md:w-1/2">
-            <Link to="/" className="flex items-center mb-6">
+            <Link to="/" className="mb-6 flex items-center">
               <img src="/ipLogoWide.png" alt="ipLogo" className="w-40" />
             </Link>
             <p className="mb-6">Truly Indian</p>
@@ -160,7 +160,10 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li>
                 <span>Phone: </span>
-                <a href="tel:+1-800-1554-456-123" className="hover:text-primary">
+                <a
+                  href="tel:+1-800-1554-456-123"
+                  className="hover:text-primary"
+                >
                   + 61 08 8260 5671
                 </a>
               </li>
@@ -184,7 +187,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-gray-700 py-6">
         <div className="container mx-auto text-center">
-          <span className="text-xs text-white-400">
+          <span className="text-white-400 text-xs">
             © {new Date().getFullYear()} Indian Plaza, Made by{" "}
             <a href="https://telzonmarketing.in" className="hover:text-primary">
               Telzon Marketing
