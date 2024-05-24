@@ -35,14 +35,11 @@ export const SwiperElement = () => {
         className="mySwiper "
       >
         {imgArray.map((imglink, key) => (
-          <SwiperSlide
-            key={key}
-            className="flex h-[90vh] items-center justify-center"
-          >
-            <div className="mx-auto flex h-[90vh]  items-center justify-center rounded-2xl  ">
+          <SwiperSlide key={key} className="flex  items-center justify-center">
+            <div className="mx-auto flex h-[50vh]  items-center justify-center rounded-2xl lg:h-[90vh] ">
               <img
                 src={imglink}
-                alt=""
+                alt="SwiperImg"
                 className="h-full w-full rounded-lg object-cover"
               />
             </div>
