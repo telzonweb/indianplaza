@@ -168,6 +168,7 @@
 
 // export default SectionPartnersLayout2;
 
+
 import React from 'react';
 import SectionTitle from "./section-title";
 import "swiper/css";
@@ -178,15 +179,16 @@ import { Autoplay } from 'swiper/modules';
 
 // Import images from the project folder
 import brand1 from '@/brandimg/img-1.jpg';
-import brand2 from '@/brandimg/img-2.jpg';
-import brand3 from '@/brandimg/img-3.jpg';
-import brand4 from '@/brandimg/img-4.jpg';
-import brand5 from '@/brandimg/img-5.jpg';
+import brand2 from '@/brandimg/dairy_milk.png';
+import brand3 from '@/brandimg/img-2.jpg';
+import brand4 from '@/brandimg/img-4.webp';
+import brand5 from '@/brandimg/img-5.png';
 import brand6 from '@/brandimg/img-1.jpg';
-import brand7 from '@/brandimg/img-2.jpg';
-import brand8 from '@/brandimg/img-3.jpg';
-import brand9 from '@/brandimg/img-4.jpg';
-import brand10 from '@/brandimg/img-5.jpg';
+import brand7 from '@/brandimg/dairy_milk.png';
+import brand8 from '@/brandimg/img-2.jpg';
+import brand9 from '@/brandimg/img-4.webp';
+import brand10 from '@/brandimg/img-5.png';
+import brand11 from '@/brandimg/img-6.png'
 
 // Add more imports as needed
 
@@ -201,21 +203,44 @@ const brands = [
   { src: brand8, alt: 'Brand 2' },
   { src: brand9, alt: 'Brand 3' },
   { src: brand10, alt: 'Brand 3' },
+
   // Add more images to this array
 ];
 
 function SwiperBrand() {
   return (
     <Swiper
-      spaceBetween={50}
+      spaceBetween={40}
+      centeredSlides={true}
       slidesPerView={5}
       autoplay={{
-        delay: 2000,
+        delay: 2500,
         disableOnInteraction: false,
       }}
+      loop={true}
       modules={[Autoplay]}
       className="mySwiper"
+      breakpoints={{
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 3,
+          spaceBetween: 20
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 4,
+          spaceBetween: 30
+        },
+        // when window width is >= 1024px
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 40
+        },
+      }}
     >
+       <SwiperSlide>
+        <img src={brand11} alt="Brand 1" className="w-full h-auto" />
+      </SwiperSlide>
       {brands.map((brand, index) => (
         <SwiperSlide key={index}>
           <img src={brand.src} alt={brand.alt} className="w-full h-auto" />
