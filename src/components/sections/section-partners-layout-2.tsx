@@ -136,6 +136,38 @@
 
 // export default SectionPartnersLayout2
 
+// import React from 'react';
+// import SectionTitle from "./section-title";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import "swiper/css/autoplay";
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Autoplay } from 'swiper/modules';
+// import {SwiperBrand} from "@/components/extra/SwiperBrand"
+
+// function SectionPartnersLayout2() {
+//   return (
+//     <section className="overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
+//       <div className="container mx-auto">
+//         <SectionTitle
+//           sectionClasses="mx-auto max-w-xl text-center mb-12"
+//           titleClasses="mb-3 text-center"
+//           subtitleClasses="text-md font-medium"
+//         >
+//           Our Top Brands
+//         </SectionTitle>
+//         <div className="flex justify-center w-full">
+//           <div className="w-full max-w-screen-lg text-center">
+//             <SwiperBrand />
+//         </div>
+// </div>
+//       </div>
+//     </section>
+//   );
+// }
+
+// export default SectionPartnersLayout2;
+
 import React from 'react';
 import SectionTitle from "./section-title";
 import "swiper/css";
@@ -143,7 +175,55 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import {SwiperBrand} from "@/components/extra/SwiperBrand"
+
+// Import images from the project folder
+import brand1 from '@/brandimg/img-1.jpg';
+import brand2 from '@/brandimg/img-2.jpg';
+import brand3 from '@/brandimg/img-3.jpg';
+import brand4 from '@/brandimg/img-4.jpg';
+import brand5 from '@/brandimg/img-5.jpg';
+import brand6 from '@/brandimg/img-1.jpg';
+import brand7 from '@/brandimg/img-2.jpg';
+import brand8 from '@/brandimg/img-3.jpg';
+import brand9 from '@/brandimg/img-4.jpg';
+import brand10 from '@/brandimg/img-5.jpg';
+
+// Add more imports as needed
+
+const brands = [
+  { src: brand1, alt: 'Brand 1' },
+  { src: brand2, alt: 'Brand 2' },
+  { src: brand3, alt: 'Brand 3' },
+  { src: brand4, alt: 'Brand 1' },
+  { src: brand5, alt: 'Brand 2' },
+  { src: brand6, alt: 'Brand 3' },
+  { src: brand7, alt: 'Brand 1' },
+  { src: brand8, alt: 'Brand 2' },
+  { src: brand9, alt: 'Brand 3' },
+  { src: brand10, alt: 'Brand 3' },
+  // Add more images to this array
+];
+
+function SwiperBrand() {
+  return (
+    <Swiper
+      spaceBetween={50}
+      slidesPerView={5}
+      autoplay={{
+        delay: 2000,
+        disableOnInteraction: false,
+      }}
+      modules={[Autoplay]}
+      className="mySwiper"
+    >
+      {brands.map((brand, index) => (
+        <SwiperSlide key={index}>
+          <img src={brand.src} alt={brand.alt} className="w-full h-auto" />
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
+}
 
 function SectionPartnersLayout2() {
   return (
@@ -159,12 +239,11 @@ function SectionPartnersLayout2() {
         <div className="flex justify-center w-full">
           <div className="w-full max-w-screen-lg text-center">
             <SwiperBrand />
+          </div>
         </div>
-</div>
       </div>
     </section>
   );
 }
 
 export default SectionPartnersLayout2;
-
