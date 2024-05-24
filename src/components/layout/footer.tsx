@@ -160,11 +160,6 @@ const Footer = () => {
   <ul className="space-y-3 text-sm text-center md:text-left">
     <li>
       <address className="not-italic">
-        431-435 Main North Rd ENFIELD, SA 5085
-      </address>
-    </li>
-    <li>
-      <address className="not-italic">
         1/161 Glynburn Rd FIRLE, SA 5070
       </address>
     </li>
