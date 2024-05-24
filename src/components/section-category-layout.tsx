@@ -699,7 +699,9 @@ const SectioncategoryLayout = () => {
                     alt={iconBox.title}
                     className="mb-2 h-24 w-auto max-w-full rounded-xl object-contain"
                   />
-                  <h3 className="text-sm font-semibold">{iconBox.title}</h3>
+                  <h3 className="text-sm font-semibold dark:text-black">
+                    {iconBox.title}
+                  </h3>
                 </div>
               </div>
             </motion.div>

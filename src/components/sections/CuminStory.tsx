@@ -3,17 +3,17 @@ import SectionTitle from "./section-title";
 
 const CuminStory = () => {
   return (
-    <div className="py-10">
+    <div className="lg:p-10">
       <SectionTitle
         subtitle="Truly Indian"
-        sectionClasses="mx-auto max-w-xl text-center mb-12"
+        sectionClasses="mx-auto max-w-xl text-center m-12"
         titleClasses="mb-3 text-center"
         subtitleClasses="text-md font-large"
       >
         More than Grocery
       </SectionTitle>
 
-      <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl p-6 shadow-sm md:flex-row lg:mx-[10%]">
+      <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[10%] lg:p-6">
         <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-20 ">
           <h1 className="mb-4 font-Caveat text-4xl font-bold">
             Cumin: The Spice of India's Legacy
