@@ -17,7 +17,7 @@ const PostCard = ({ post }: Props) => {
       itemType="https://schema.org/Article"
     >
       <figure className="after: relative overflow-hidden">
-        <Link to="/single-post" className="group">
+        <Link to={post.slug} className="group">
           <img
             src={post.image}
             alt={post.title}
@@ -31,7 +31,7 @@ const PostCard = ({ post }: Props) => {
         <h2 className="mb-4 text-xl font-bold">
           <Link
             className="hover:text-primary"
-            to="/single-post"
+            to={post.slug}
             dangerouslySetInnerHTML={{ __html: post?.title }}
           />
         </h2>
