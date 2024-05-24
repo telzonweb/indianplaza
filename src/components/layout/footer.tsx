@@ -243,7 +243,7 @@ const Footer = () => {
       </div>
 
       <div className="w-full sm:w-2/3 md:w-1/3 xl:w-1/3 px-4 mb-8 md:mb-0">
-        <h2 className="mb-4 text-lg font-Caveat text-white">Our Outlets</h2>
+        <h2 className="mb-4 text-2xl font-Caveat text-red-400">Our Outlets</h2>
         <ul className="space-y-3 text-sm">
           <li>
             <address className="not-italic">
@@ -264,7 +264,7 @@ const Footer = () => {
       </div>
 
       <div className="w-full md:w-1/3 xl:w-1/3">
-        <h2 className="mb-4 text-lg font-Caveat text-white">Contact</h2>
+      <h2 className="mb-4 text-2xl font-Caveat text-red-400">Contact</h2>
         <ul className="space-y-3 text-sm">
           <li>
             <span>Phone: </span>
