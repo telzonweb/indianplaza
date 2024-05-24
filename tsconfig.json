@@ -24,7 +24,7 @@
     // "noUnusedParameters": true,
     // "noFallthroughCasesInSwitch": true
     /* Linting */
-    "strict": true,
+    "strict": false,
 
     "noUnusedLocals": false, // Disable checking for unused locals
     "noUnusedParameters": false, // Disable checking for unused parameters

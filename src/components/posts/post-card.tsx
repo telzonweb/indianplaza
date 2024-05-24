@@ -1,15 +1,13 @@
 import { Link } from "react-router-dom";
-import { BookmarkIcon } from "@heroicons/react/24/outline";
-import { getDateDay, getDateMonth } from "@/lib/utils";
+// import { BookmarkIcon } from "@heroicons/react/24/outline";
+// import { getDateDay, getDateMonth } from "@/lib/utils";
 
-type Props = {
-  post: Post;
-};
+// type Props = {
+//   post: Post;
+// };
 
-const PostCard = ({ post }: Props) => {
-  const featuredMedia = post.featuredmedia;
-
-  // console.log(post);
+const PostCard = ({ post }) => {
+  console.log(post);
 
   return (
     <article

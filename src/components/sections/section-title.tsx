@@ -17,7 +17,7 @@ const SectionTitle = ({
   subtitleClasses,
 }: SectionTitleProps) => {
   return (
-    <div className={cn("", sectionClasses)}>
+    <div className={cn("mx-auto", sectionClasses)}>
       <h2 className={cn("font-Caveat text-4xl ")}>{children}</h2>
       {subtitle && <p className={cn("", subtitleClasses)}>{subtitle}</p>}
     </div>
