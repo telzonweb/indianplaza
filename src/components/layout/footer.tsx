@@ -125,7 +125,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-300 text-white">
+    <footer className="bg-gray-200 text-black">
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="mb-8 md:mb-0 md:w-1/2">
@@ -156,7 +156,7 @@ const Footer = () => {
           </div>
 
           <div className="md:w-1/2 xl:w-1/3">
-            <h2 className="mb-4 text-lg font-semibold text-white">Contact</h2>
+            <h2 className="mb-4 text-lg font-semibold text-black">Contact</h2>
             <ul className="space-y-3 text-sm">
               <li>
                 <span>Phone: </span>
