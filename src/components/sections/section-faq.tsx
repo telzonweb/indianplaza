@@ -157,21 +157,32 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+
 const accordionItems = [
   {
-    title: "What is tax and legal advisory?",
+    title: "What types of products do you sell? ",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "We offer a wide range of Indian groceries including spices, pickles, pulses, rice, flours, snacks, and fresh produce.",
   },
   {
-    title: "Technical team of enthusiastic?",
+    title: "Do you carry fresh produce? ",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "Yes, we stock a variety of fresh vegetables and fruits, including popular Indian produce items.",
   },
   {
-    title: "Do you give guarantee and after sales service?",
+    title: "Can I find organic products at your store? ",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "Yes, we have a selection of organic spices, pulses, rice, and other organic grocery items.",
+  },
+  {
+    title: "Do you offer home delivery? ",
+    content:
+      "Currently, we do not offer home delivery. Please visit our store for all your grocery needs.",
+  },
+  {
+    title: "Are there any special deals or discounts available? ",
+    content:
+      "We regularly offer discounts and special promotions. Check our website or sign up for our newsletter to stay updated on the latest deals. ",
   },
 ];
 
@@ -255,6 +266,7 @@ const SectionFAQ = () => {
         </div>
       </div>
     </section>
+ 
   );
 };
 
