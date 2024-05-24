@@ -12,11 +12,9 @@ const Contact = useFramerTransition(
       <title>Contact</title>
     </Helmet>
     <main className="relative">
-      <SectionPageTitle>
-        Contact
-      </SectionPageTitle>
-      <ContactUs/>
-      <AddressComponent/>
+      <SectionPageTitle>Contact</SectionPageTitle>
+      {/* <ContactUs/> */}
+      <AddressComponent />
       {/* <SectionContactForm />
       <SectionGoogleMap /> */}
     </main>
