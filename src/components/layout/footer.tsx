@@ -155,6 +155,33 @@ const Footer = () => {
             </div>
           </div>
 
+<div className="w-full sm:w-2/3 md:w-1/2 xl:w-1/3 px-4">
+  <h2 className="mb-4 text-lg font-semibold text-black text-center md:text-left">Our Outlet</h2>
+  <ul className="space-y-3 text-sm text-center md:text-left">
+    <li>
+      <address className="not-italic">
+        431-435 Main North Rd ENFIELD, SA 5085
+      </address>
+    </li>
+    <li>
+      <address className="not-italic">
+        1/161 Glynburn Rd FIRLE, SA 5070
+      </address>
+    </li>
+    <li>
+      <address className="not-italic">
+        224 Henley Beach Rd TORRENSVILLE, 5031
+      </address>
+    </li>
+    <li>
+      <address className="not-italic">
+        Indian Traders 345 Anzac Hwy PLYMPTON, SA 5038
+      </address>
+    </li>
+  </ul>
+</div>
+
+
           <div className="md:w-1/2 xl:w-1/3">
             <h2 className="mb-4 text-lg font-semibold text-black">Contact</h2>
             <ul className="space-y-3 text-sm">
