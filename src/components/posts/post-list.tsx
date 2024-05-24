@@ -3,10 +3,9 @@ import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";
-import axios from 'axios'
-import {
-  useQuery,
-} from '@tanstack/react-query'
+import axios from "axios";
+import { useQuery } from "@tanstack/react-query";
+import PostData from "@/data/posts.json";
 
 type PostListProps = {
   limit: number;
@@ -22,16 +21,14 @@ export default function PostList({
   const [_, setTotalItems] = useState<number | null>(null);
 
   const { isPending, error, data } = useQuery({
-    queryKey: ['posts'],
-    queryFn: () =>
-      axios
-        .get('/data/posts.json')
-        .then((res) => res.data),
-  })
+    queryKey: ["posts"],
+    queryFn: () => axios.get("/data/posts.json").then((res) => res.data),
+  });
+  // console.log(PostData);
 
   const getTotalItems = useCallback(async () => {
     try {
-      const total = 12
+      const total = 12;
       setTotalItems(total);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -42,16 +39,15 @@ export default function PostList({
     getTotalItems();
   }, [getTotalItems]);
 
-  if (error) return 'An error has occurred: ' + error.message
+  if (error) return "An error has occurred: " + error.message;
 
   const content = (
     <>
       <div className={cn("grid grid-cols-1 gap-10 lg:grid-cols-3", grid)}>
-        
         {isPending &&
           Array.from({ length: limit }).map((_, i) => (
             <Skeleton key={i} className="h-[33rem] w-full" />
-        ))}
+          ))}
 
         {data?.slice(0, limit).map((post: Post) => {
           return <PostCard post={post} key={post.id} />;
@@ -59,9 +55,7 @@ export default function PostList({
       </div>
       {data?.length && showPagination ? (
         <div className="mt-10 text-center">
-          <Button
-            size={"lg"}
-          >Load more</Button>
+          <Button size={"lg"}>Load more</Button>
         </div>
       ) : null}
     </>
