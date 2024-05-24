@@ -63,7 +63,6 @@
 
 // export default AddressComponent;
 
-
 import React from "react";
 import SectionTitle from "./sections/section-title";
 
@@ -97,20 +96,21 @@ export const SectionAddresses = [
 
 const AddressComponent = () => {
   return (
-    <section className="overflow-hidden bg-gradient-to-b from-[#EBE4FA]/26 to-muted/26 py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
+    <section className="from-[#EBE4FA]/26 to-muted/26 my-10 overflow-hidden bg-gradient-to-b py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
       <div className="container relative overflow-hidden xl:left-[calc((100vw-1312px)/4)] xl:max-w-[calc(1312px+((100vw-1312px)/2))] xl:pr-[calc((100vw-1280px)/2)]">
         <SectionTitle
+          subtitle="Now"
           sectionClasses="mx-auto max-w-xl text-center mb-12"
           titleClasses="mb-3 text-center"
           subtitleClasses="text-md font-medium"
         >
           Visit Us
         </SectionTitle>
-        <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-2 lg:grid-cols-4">
+        <div className="my-10 grid grid-cols-1 gap-8 text-center md:grid-cols-2 lg:grid-cols-4">
           {SectionAddresses.map((address, index) => (
             <div
               key={index}
-              className="p-6 border rounded-lg shadow-md bg-white dark:bg-gray-800"
+              className="rounded-lg border bg-white p-6 font-Caveat text-lg font-bold shadow-lg dark:bg-gray-800"
             >
               <p className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
                 {address.title}
@@ -122,7 +122,7 @@ const AddressComponent = () => {
                 href={address.buttonLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
+                className="inline-block rounded-md bg-blue-500 px-6 py-2 text-white hover:bg-blue-600"
               >
                 {address.buttonText}
               </a>
