@@ -253,10 +253,10 @@ const SectionFAQ = () => {
               />
               <div className="mt-12 md:flex md:space-x-8 lg:justify-end">
                 <img
-                  src="https://img.freepik.com/premium-photo/shopping-basket-full-variety-grocery-products_926154-1020.jpg?w=740" // Replace with an appropriate image URL
+                  src="https://www.efghfoods.com/wp-content/uploads/2022/07/masala.jpg" // Replace with an appropriate image URL
                   alt="FAQ and Support"
-                  width={450}
-                  height={250}
+                  width={500}
+                  height={400}
                   className="mb-8 inline-block rounded-xl mr-20 mt-20"
                 />
                 {/* Additional content can be added here if needed */}
