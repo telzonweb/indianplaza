@@ -71,10 +71,10 @@ export const statistics = [
 
 const SectionStats = () => {
   return (
-    <section className="relative py-16 after:absolute after:inset-0 after:bg-[rgba(255,165,0,0.8)] lg:py-28">
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+    <section className="relative py-16 after:absolute after:inset-0 after:bg-[rgba(168,162,151,0.8)] lg:py-28">
+      <div className="absolute inset-0 bg-black opacity-100"></div>
       <img
-        src="statistic.jpg"
+        src="abt-2.jpg"
         alt="Statistics"
         className="object-cover object-center absolute w-full h-full inset-0"
       />
@@ -83,12 +83,12 @@ const SectionStats = () => {
           {statistics.map((item, index) => (
             <div key={index} className="text-center p-6 bg-white bg-opacity-25 backdrop-blur-lg rounded-lg shadow-lg transition transform hover:scale-105">
               {item.number && (
-                <span className="mb-4 block text-4xl font-extrabold text-grey">
+                <span className="mb-4 block text-4xl font-extrabold text-black">
                   {item.number}
                 </span>
               )}
               {item.title && (
-                <span className="block text-lg font-semibold text-grey">
+                <span className="block text-lg font-semibold text-black">
                   {item.title}
                 </span>
               )}

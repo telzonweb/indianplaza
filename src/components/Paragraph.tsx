@@ -15,15 +15,15 @@ const Paragraph = () => {
           </div> */}
           <div className="md:w-1/2 w-full custom-image md:mr-8 mb-8 md:mb-0">
             <img
-              src="https://img.freepik.com/premium-photo/there-is-large-store-with-variety-fruits-vegetables-generative-ai_901003-169177.jpg?w=740"
+              src="abt-1.jpg"
               alt="about"
               className="w-full h-auto"
-              style={{ width: '550px', height: '450px' }}
+              style={{ width: '570px', height: '450px' }}
             />
           </div>
 
           <div className="md:w-1/2 w-full custom-content">
-            <h2 className="text-2xl font-bold mb-4">Margin</h2>
+            <h2 className="text-2xl font-bold mb-4">Indian Plaza</h2>
             <p className="mb-4">
               Retail store design is everything a retailer does to set up their space when running a retail business. 
               This includes determining the store layout, displaying products, and merchandising. 
