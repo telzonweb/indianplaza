@@ -253,7 +253,7 @@ const SectionFAQ = () => {
               />
               <div className="mt-12 md:flex md:space-x-8 lg:justify-end">
                 <img
-                  src="https://www.efghfoods.com/wp-content/uploads/2022/07/masala.jpg" // Replace with an appropriate image URL
+                  src="https://www.efghfoods.com/wp-content/uploads/2021/01/blog-2-1.jpg" // Replace with an appropriate image URL
                   alt="FAQ and Support"
                   width={500}
                   height={400}
