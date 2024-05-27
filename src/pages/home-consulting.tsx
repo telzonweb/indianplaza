@@ -26,20 +26,20 @@ const HomeConsulting = useFramerTransition(
     <main className="relative">
       <SwiperElement />
       {/* <SectionHeroLayout3 /> */}
-      {/* <SectionImgPara /> */}
+
       {/* <Sectionourstore /> */}
       {/* <SectionBenefits /> */}
       {/* <SectionIconBoxesLayout2 /> */}
 
-      {/* <SectionImg /> */}
-      <CuminStory />
+      <WheatStory />
+
       <SectioncategoryLayout />
+      <CuminStory />
       <RiceStory />
       {/* <SectionTestimonialsSliderLayout2 /> */}
       <SectionPartnersLayout2 />
       <Cardamon />
       <SectionFAQ />
-      <WheatStory />
       <SectionCTALayout3 />
       {/* <AddressComponent /> */}
     </main>
