@@ -14,7 +14,7 @@ const CuminStory = () => {
       </SectionTitle>
       <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[10%] lg:p-6">
         <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-20 ">
-          <h1 className="mb-4 font-Caveat text-4xl font-bold">
+          <h1 className="mb-4 font-Libre text-3xl font-bold">
             Cumin: The Spice of India's Legacy
           </h1>
           <p className=" mb-6 text-lg text-[#000]">
