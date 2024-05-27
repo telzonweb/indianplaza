@@ -62,7 +62,26 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-
+            <div className="col-span-6 xl:col-span-3">
+  <h2 className="mb-4 text-md">Our Outlet</h2>
+  <ul className="space-y-4 text-md">
+    <li>
+      <span className="leading-6">
+        1/161 Glynburn Rd, FIRLE, SA 5070
+      </span>
+    </li>
+    <li>
+      <span className="leading-6">
+        224 Henley Beach Rd, TORRENSVILLE, SA 5031
+      </span>
+    </li>
+    <li>
+      <span className="leading-6">
+        Indian Traders 345 Anzac Hwy, PLYMPTON, SA 5038
+      </span>
+    </li>
+  </ul>
+            </div>
             <div className="col-span-6 xl:col-span-3">
               <h2 className="mb-4 text-lg">Contact</h2>
               <ul className="space-y-3 text-md">
