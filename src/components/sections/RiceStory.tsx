@@ -13,7 +13,7 @@ const RiceStory = () => {
         Our Roots
       </SectionTitle>
 
-      <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[10%] lg:p-6">
+      <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[7%] lg:p-6">
         <div className="flex items-center justify-center md:w-1/2  lg:h-[90vh] ">
           <img
             src="https://img.freepik.com/free-photo/high-angle-hand-holding-bowl-with-rice-grains_23-2149359496.jpg?t=st=1716458664~exp=1716462264~hmac=687ed4533cb274758b1497d22e240caafe4bf5fbde03dd4da5ccf631f848cc12&w=360"
