@@ -122,7 +122,7 @@ const AddressComponent = () => {
                 href={address.buttonLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block rounded-md bg-blue-500 px-6 py-2 text-white hover:bg-blue-600"
+                className="inline-block rounded-md bg-red-600 px-6 py-2 text-white hover:bg-blue-600"
               >
                 {address.buttonText}
               </a>
