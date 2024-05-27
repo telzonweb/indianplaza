@@ -52,20 +52,20 @@
 
 export const statistics = [
   {
-    number: "36",
-    title: "Successful Projects",
+    number: "3+",
+    title: "Stores",
   },
   {
-    number: "100%",
-    title: "Achieved ROI",
-  },
-  {
-    number: "550",
+    number: "1000+",
     title: "Happy Customers",
   },
   {
-    number: "3x",
-    title: "Increased Profits",
+    number: "150+",
+    title: "Top Brands",
+  },
+  {
+    number: "10+",
+    title: "special Offers",
   },
 ];
 

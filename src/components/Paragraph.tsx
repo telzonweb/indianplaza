@@ -25,16 +25,10 @@ const Paragraph = () => {
           <div className="custom-content w-full md:w-1/2">
             <h2 className="mb-4 text-2xl font-bold">Indian Plaza</h2>
             <p className="mb-4">
-              Retail store design is everything a retailer does to set up their
-              space when running a retail business. This includes determining
-              the store layout, displaying products, and merchandising. The best
-              retail store design is powerful and, if implemented well, can help
-              grow your business and drive sales.
+            Welcome to our Indian grocery store, where every shelf holds more than just ingredients; it cradles stories of home, whispers of nostalgia, and the warmth of tradition. With each spice jar, every grain of rice, and the scent of freshly ground masalas, we invite you to embark on a journey through the flavors of India.
             </p>
             <p>
-              This includes determining the store layout, displaying products,
-              and merchandising. The best retail store design is powerful and,
-              if implemented well, can help grow your business and drive sales.
+            Step into our Indian grocery store and feel the warmth of tradition envelop you. Our shelves aren't just stocked with spices and grains; they're laden with memories of home-cooked meals, shared laughter, and cherished family gatherings. From the aroma of freshly ground masalas to the vibrant colors of assorted lentils, each aisle tells a story of heritage and flavor.
             </p>
           </div>
         </div>
