@@ -22,10 +22,10 @@ const RiceStory = () => {
           />
         </div>
         <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-20 ">
-          <h1 className="mb-4 font-Caveat text-4xl font-bold">
+          <h1 className="mb-4 font-Libre text-3xl font-bold">
             Rice: The Essence of India's Heritage
           </h1>
-          <p className="mb-6 text-lg text-[#000]">
+          <p className="mb-6 text-[16px] text-[#000]">
             Nestled in India's verdant fields, each grain of rice symbolizes our
             enduring heritage and agricultural prowess. Cultivated through
             centuries-old traditions, rice sustains our bodies and intertwines
