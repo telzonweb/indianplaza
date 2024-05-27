@@ -125,122 +125,35 @@ import {
 
 const Footer = () => {
   return (
-//     <footer className=" text-black">
-//       <div className="container mx-auto px-4 py-16">
-//         <div className="flex flex-col md:flex-row md:justify-between">
-//           <div className="mb-8 md:mb-0 md:w-1/2">
-//             <Link to="/" className="mb-6 flex items-center">
-//               <img src="/ipLogoWide.png" alt="ipLogo" className="w-40" />
-//             </Link>
-//             <p className="mb-6">Truly Indian</p>
-//             <div className="flex space-x-3">
-//               <a
-//                 href="https://www.facebook.com/iPlazaSA/"
-//                 className="flex h-10 w-10 items-center justify-center rounded-full bg-[#324e8c] transition-colors hover:bg-gray-700"
-//               >
-//                 <FontAwesomeIcon icon={faFacebook} width={20} />
-//               </a>
-//               <a
-//                 href="#"
-//                 className="flex h-10 w-10 items-center justify-center rounded-full bg-[#cd201f] transition-colors hover:bg-gray-700"
-//               >
-//                 <FontAwesomeIcon icon={faInstagram} width={20} />
-//               </a>
-//               {/* <a
-//                 href="#"
-//                 className="flex h-10 w-10 items-center justify-center rounded-full bg-[#0077b5] transition-colors hover:bg-gray-700"
-//               >
-//                 <FontAwesomeIcon icon={faLinkedin} width={20} />
-//               </a> */}
-//             </div>
-//           </div>
-
-// <div className="w-full sm:w-2/3 md:w-1/2 xl:w-1/3 px-4">
-//   <h2 className="mb-4 text-lg font-semibold text-black text-center md:text-left">Our Outlet</h2>
-//   <ul className="space-y-3 text-sm text-center md:text-left">
-//     <li>
-//       <address className="not-italic">
-//         1/161 Glynburn Rd FIRLE, SA 5070
-//       </address>
-//     </li>
-//     <li>
-//       <address className="not-italic">
-//         224 Henley Beach Rd TORRENSVILLE, 5031
-//       </address>
-//     </li>
-//     <li>
-//       <address className="not-italic">
-//         Indian Traders 345 Anzac Hwy PLYMPTON, SA 5038
-//       </address>
-//     </li>
-//   </ul>
-// </div>
-
-
-//           <div className="md:w-1/2 xl:w-1/3">
-//             <h2 className="mb-4 text-lg font-semibold text-black">Contact</h2>
-//             <ul className="space-y-3 text-sm">
-//               <li>
-//                 <span>Phone: </span>
-//                 <a
-//                   href="tel:+1-800-1554-456-123"
-//                   className="hover:text-primary"
-//                 >
-//                   + 61 08 8260 5671
-//                 </a>
-//               </li>
-//               <li>
-//                 <span>Email: </span>
-//                 <a
-//                   href="mailto:hello@indianplaza.com.au"
-//                   className="hover:text-primary"
-//                 >
-//                   hello@indianplaza.com.au
-//                 </a>
-//               </li>
-//               <li>
-//                 <address className="not-italic">
-//                   431-435 Main North Rd ENFIELD, SA 5085
-//                 </address>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="border-t border-gray-700 py-6">
-//         <div className="container mx-auto text-center">
-//           <span className="text-white-400 text-xs">
-//             © {new Date().getFullYear()} Indian Plaza, Made by{" "}
-//             <a href="https://telzonmarketing.in" className="hover:text-primary">
-//               Telzon Marketing
-//             </a>
-//           </span>
-//         </div>
-//       </div>
-//     </footer>
-<footer className="text-black bg-[#d6b88b91]">
-  <div className="container mx-auto px-4 py-16">
-    <div className="flex flex-col md:flex-row md:justify-between">
-      <div className="mb-8 md:mb-0 md:w-1/3">
-        <Link to="/" className="mb-6 flex items-center">
-          <img src="/ipLogoWide.png" alt="ipLogo" className="w-40" />
-        </Link>
-        <p className="mb-6">Truly Indian</p>
-        <div className="flex space-x-3">
-          <a
-            href="https://www.facebook.com/iPlazaSA/"
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-[#324e8c] transition-colors hover:bg-gray-700"
-          >
-            <FontAwesomeIcon icon={faFacebook} width={20} />
-          </a>
-          <a
-            href="#"
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-[#cd201f] transition-colors hover:bg-gray-700"
-          >
-            <FontAwesomeIcon icon={faInstagram} width={20} />
-          </a>
-        </div>
-      </div>
+    <footer className="text-black bg-[#d6b88b91]">
+      <div className="container mx-auto px-4 py-16">
+        <div className="flex flex-col md:flex-row md:justify-between">
+          <div className="mb-8 md:mb-0 md:w-1/3">
+            <Link to="/" className="mb-6 flex items-center">
+              <img src="/ipLogoWide.png" alt="ipLogo" className="w-40" />
+            </Link>
+            <p className="mb-6">Truly Indian</p>
+            <div className="flex space-x-3">
+              <a
+                href="https://www.facebook.com/iPlazaSA/"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-[#324e8c] transition-colors hover:bg-gray-700"
+              >
+                <FontAwesomeIcon icon={faFacebook} width={20} />
+              </a>
+              <a
+                href="#"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-[#cd201f] transition-colors hover:bg-gray-700"
+              >
+                <FontAwesomeIcon icon={faInstagram} width={20} />
+              </a>
+              <a
+                href="#"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-[#0e76a8] transition-colors hover:bg-gray-700"
+              >
+                <FontAwesomeIcon icon={faLinkedin} width={20} />
+              </a>
+            </div>
+          </div>
 
           <div className="w-full px-4 sm:w-2/3 md:w-1/2 xl:w-1/3">
             <h2 className="mb-4 text-center text-lg font-semibold text-black md:text-left">
@@ -306,69 +219,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-      <div className="w-full sm:w-2/3 md:w-1/3 xl:w-1/3 px-4 mb-8 md:mb-0">
-        <h2 className="mb-4 text-2xl font-Caveat text-red-400">Our Outlets</h2>
-        <ul className="space-y-3 text-sm">
-          <li>
-            <address className="not-italic">
-              1/161 Glynburn Rd FIRLE, SA 5070
-            </address>
-          </li>
-          <li>
-            <address className="not-italic">
-              224 Henley Beach Rd TORRENSVILLE, 5031
-            </address>
-          </li>
-          <li>
-            <address className="not-italic">
-              Indian Traders 345 Anzac Hwy PLYMPTON, SA 5038
-            </address>
-          </li>
-        </ul>
-      </div>
-
-      <div className="w-full md:w-1/3 xl:w-1/3">
-      <h2 className="mb-4 text-2xl font-Caveat text-red-400">Contact</h2>
-        <ul className="space-y-3 text-sm">
-          <li>
-            <span>Phone: </span>
-            <a
-              href="tel:+1-800-1554-456-123"
-              className="hover:text-primary transition-colors"
-            >
-              + 61 08 8260 5671
-            </a>
-          </li>
-          <li>
-            <span>Email: </span>
-            <a
-              href="mailto:hello@indianplaza.com.au"
-              className="hover:text-primary transition-colors"
-            >
-              hello@indianplaza.com.au
-            </a>
-          </li>
-          <li>
-            <address className="not-italic">
-              431-435 Main North Rd ENFIELD, SA 5085
-            </address>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div className="border-t border-gray-700 py-6">
-    <div className="container mx-auto text-center">
-      <span className="text-white-400 text-xs">
-        © {new Date().getFullYear()} Indian Plaza, Made by{" "}
-        <a href="https://telzonmarketing.in" className="hover:text-primary transition-colors">
-          Telzon Marketing
-        </a>
-      </span>
-    </div>
-  </div>
-</footer>
-
   );
 };
 
