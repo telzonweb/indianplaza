@@ -12,7 +12,7 @@
 //           <p>ENFIELD, SA 5085</p>
 //             <a href="https://www.google.co.in/maps/" target="_blank" rel="noopener noreferrer">
 //              <button className="mt-4 text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300">
-//               Google Map
+//               Get Directions
 //             </button>
 //             </a>
 //           </div>
@@ -26,7 +26,7 @@
 //             <p>FIRLE, SA 5070</p>
 //             <a href="https://www.google.co.in/maps/" target="_blank" rel="noopener noreferrer">
 //              <button className="mt-4 text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300">
-//               Google Map
+//               Get Directions
 //             </button>
 //             </a>
 //           </div>
@@ -39,7 +39,7 @@
 //             <p>PLYMPTON, SA 5038</p>
 //             <a href="https://www.google.co.in/maps/" target="_blank" rel="noopener noreferrer">
 //              <button className="mt-4 text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300">
-//               Google Map
+//               Get Directions
 //             </button>
 //             </a>
 //           </div>
@@ -51,7 +51,7 @@
 //             <p>TORRENSVILLE, 5031</p>
 //             <a href="https://www.google.co.in/maps/" target="_blank" rel="noopener noreferrer">
 //              <button className="mt-4 text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300">
-//               Google Map
+//               Get Directions
 //             </button>
 //             </a>
 //           </div>
@@ -71,25 +71,25 @@ export const SectionAddresses = [
   {
     title: "Enfield",
     address: "431-435 Main North Rd ENFIELD, SA 5085",
-    buttonText: "Google Map",
+    buttonText: "Get Directions",
     buttonLink: "https://www.google.co.in/maps",
   },
   {
     title: "Firle",
     address: "1/161 Glynburn Rd FIRLE, SA 5070",
-    buttonText: "Google Map",
+    buttonText: "Get Directions",
     buttonLink: "https://www.google.co.in/maps",
   },
   {
     title: "Torrensville",
     address: "224 Henley Beach Rd TORRENSVILLE, 5031",
-    buttonText: "Google Map",
+    buttonText: "Get Directions",
     buttonLink: "https://www.google.co.in/maps",
   },
   {
     title: "Plympton",
     address: "Indian Traders 345 Anzac Hwy PLYMPTON, SA 5038",
-    buttonText: "Google Map",
+    buttonText: "Get Directions",
     buttonLink: "https://www.google.co.in/maps",
   },
 ];
@@ -99,7 +99,7 @@ const AddressComponent = () => {
     <section className="from-[#EBE4FA]/26 to-muted/26 my-10 overflow-hidden bg-gradient-to-b py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
       <div className="container relative overflow-hidden xl:left-[calc((100vw-1312px)/4)] xl:max-w-[calc(1312px+((100vw-1312px)/2))] xl:pr-[calc((100vw-1280px)/2)]">
         <SectionTitle
-          subtitle="Now"
+          subtitle="Explore Our Stores"
           sectionClasses="mx-auto max-w-xl text-center mb-12"
           titleClasses="mb-3 text-center"
           subtitleClasses="text-md font-medium"
@@ -112,7 +112,7 @@ const AddressComponent = () => {
               key={index}
               className="rounded-lg border bg-white p-6 font-Caveat text-lg font-bold shadow-lg dark:bg-gray-800"
             >
-              <p className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
+              <p className="mb-4 text-xl font-bold text-gray-900 dark:text-white">
                 {address.title}
               </p>
               <p className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
