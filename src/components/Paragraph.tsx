@@ -1,9 +1,9 @@
 import React from "react";
-import '@/components/style.css';  // Assuming you have a separate CSS file
+import "@/components/style.css"; // Assuming you have a separate CSS file
 
 const Paragraph = () => {
   return (
-    <section className="pt-12 pl-12 pr-10 text-lg custom-section">
+    <section className="custom-section pl-12 pr-10 pt-12 text-lg">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row">
           {/* <div className="md:w-1/2 w-full custom-image md:mr-8 mb-8 md:mb-0">
@@ -13,25 +13,28 @@ const Paragraph = () => {
               className="w-full h-auto"
             />
           </div> */}
-          <div className="md:w-1/2 w-full custom-image md:mr-8 mb-8 md:mb-0">
+          <div className="custom-image mb-8 w-full md:mb-0 md:mr-8 md:w-1/2">
             <img
-              src="abt-1.jpg"
+              src="mainImages/about/basket.jpg"
               alt="about"
-              className="w-full h-auto"
-              style={{ width: '570px', height: '450px' }}
+              className="h-auto w-full"
+              style={{ width: "570px", height: "450px" }}
             />
           </div>
 
-          <div className="md:w-1/2 w-full custom-content">
-            <h2 className="text-2xl font-bold mb-4">Indian Plaza</h2>
+          <div className="custom-content w-full md:w-1/2">
+            <h2 className="mb-4 text-2xl font-bold">Indian Plaza</h2>
             <p className="mb-4">
-              Retail store design is everything a retailer does to set up their space when running a retail business. 
-              This includes determining the store layout, displaying products, and merchandising. 
-              The best retail store design is powerful and, if implemented well, can help grow your business and drive sales.
+              Retail store design is everything a retailer does to set up their
+              space when running a retail business. This includes determining
+              the store layout, displaying products, and merchandising. The best
+              retail store design is powerful and, if implemented well, can help
+              grow your business and drive sales.
             </p>
             <p>
-              This includes determining the store layout, displaying products, and merchandising. 
-              The best retail store design is powerful and, if implemented well, can help grow your business and drive sales.
+              This includes determining the store layout, displaying products,
+              and merchandising. The best retail store design is powerful and,
+              if implemented well, can help grow your business and drive sales.
             </p>
           </div>
         </div>
