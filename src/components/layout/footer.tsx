@@ -44,8 +44,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <h2 className="mb-4 text-3xl text-orange-500 font-caveat">Our Outlet</h2>
-            <ul className="space-y-4 text-lg text-black font-caveat">
+            <h2 className="mb-4 text-3xl text-#4b5320 font-caveat">Our Outlet</h2>
+            <ul className="space-y-4 text-sm text-black">
               <li>
                 <span className="leading-6 block">
                   1/161 Glynburn Rd, FIRLE, SA 5070
@@ -64,8 +64,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <h2 className="mb-4 text-3xl text-orange-500 font-caveat">Contact</h2>
-            <ul className="space-y-3 text-lg text-black font-caveat">
+            <h2 className="mb-4 text-3xl text-#202A44 font-caveat">Contact</h2>
+            <ul className="space-y-3 text-sm text-black">
               <li>
                 <span>Phone: </span>
                 <a href="tel:+61-08-8260-5671" className="hover:text-primary">
@@ -90,7 +90,7 @@ const Footer = () => {
     </div>
     <div className="border-t py-12">
       <div className="container text-center">
-        <span className="text-md text-black font-caveat">
+        <span className="text-sm text-black">
           © {new Date().getFullYear()} Indian Plaza, Made by{" "}
           <a href="https://telzonmarketing.in" className="hover:text-primary">
             Telzon Marketing
