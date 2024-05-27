@@ -18,7 +18,7 @@ export const Cardamon = () => {
           <h1 className="mb-4 font-Libre text-3xl font-bold">
             Cardamom: The Jewel of India's Heritage
           </h1>
-          <p className=" mb-6 text-lg text-[#000]">
+          <p className=" mb-6 text-[16px] text-[#000]">
             From the lush forests of India, cardamom shines as the "Queen of
             Spices." Treasured for centuries, its aromatic pods enrich our
             cuisine and traditions. From Ayurvedic practices to culinary

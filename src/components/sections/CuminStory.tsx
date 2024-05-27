@@ -17,7 +17,7 @@ const CuminStory = () => {
           <h1 className="mb-4 font-Libre text-3xl font-bold">
             Cumin: The Spice of India's Legacy
           </h1>
-          <p className=" mb-6 text-lg text-[#000]">
+          <p className=" mb-6 text-[16px] text-[#000]">
             From the heart of India's vibrant fields, cumin seeds capture the
             essence of our rich heritage. Infusing flavor into every dish, these
             tiny seeds carry centuries of tradition, connecting past and
