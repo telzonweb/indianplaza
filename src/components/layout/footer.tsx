@@ -19,7 +19,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#e6c192]">
+    <footer className=" bg-[#ffd9a191]">
     <div className="container mx-auto px-4">
       <div className="pb-16 pt-28">
         <div className="md:grid md:grid-cols-12 md:gap-10">
@@ -27,7 +27,7 @@ const Footer = () => {
             <Link to="/" className="shrink-0">
               <img src="/ipLogoWide.png" alt="ipLogo" className="w-[160px]" />
             </Link>
-            <p className="mb-8 mt-6">Truly Indian</p>
+            <p className="mb-8 mt-6 text-lg text-black">Truly Indian</p>
             <div className="flex space-x-2">
               <a
                 href="https://www.facebook.com/iPlazaSA/"
@@ -44,8 +44,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <h2 className="mb-4 text-lg text-orange-500">Our Outlet</h2>
-            <ul className="space-y-4 text-md text-white">
+            <h2 className="mb-4 text-3xl text-orange-500 font-caveat">Our Outlet</h2>
+            <ul className="space-y-4 text-lg text-black font-caveat">
               <li>
                 <span className="leading-6 block">
                   1/161 Glynburn Rd, FIRLE, SA 5070
@@ -64,8 +64,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <h2 className="mb-4 text-lg  text-orange-500">Contact</h2>
-            <ul className="space-y-3 text-md text-white">
+            <h2 className="mb-4 text-3xl text-orange-500 font-caveat">Contact</h2>
+            <ul className="space-y-3 text-lg text-black font-caveat">
               <li>
                 <span>Phone: </span>
                 <a href="tel:+61-08-8260-5671" className="hover:text-primary">
@@ -90,7 +90,7 @@ const Footer = () => {
     </div>
     <div className="border-t py-12">
       <div className="container text-center">
-        <span className="text-xs text-white">
+        <span className="text-md text-black font-caveat">
           © {new Date().getFullYear()} Indian Plaza, Made by{" "}
           <a href="https://telzonmarketing.in" className="hover:text-primary">
             Telzon Marketing
