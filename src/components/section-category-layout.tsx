@@ -601,57 +601,170 @@
 
 // export default SectioncategoryLayout;
 
+// import { motion } from "framer-motion";
+// import SectionTitle from "./sections/section-title";
+
+// export const iconBoxes = [
+//   {
+//     src: "",
+//     title: "Everest Spices",
+//   },
+//   {
+//     src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
+//     title: "Noodles",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+//     title: "Mix Farsan",
+//   },
+//   {
+//     src: "https://tse4.mm.bing.net/th?id=OIP.BM-LStUWJ5TjQHIcD2pQ_QHaFj&pid=Api&P=0&h=180",
+//     title: "Lay's",
+//   },
+//   {
+//     src: "https://wallpapercave.com/wp/wp2422343.jpg",
+//     title: "Biscuits",
+//   },
+//   {
+//     src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
+//     title: "Mix Farsan",
+//   },
+//   {
+//     src: "https://tse4.mm.bing.net/th?id=OIP.BM-LStUWJ5TjQHIcD2pQ_QHaFj&pid=Api&P=0&h=180",
+//     title: "Lay's",
+//   },
+//   {
+//     src: "https://wallpapercave.com/wp/wp2422343.jpg",
+//     title: "Biscuits",
+//   },
+//   {
+//     src: "https://img1.exportersindia.com/product_images/bc-full/2020/11/7759953/everest-spices-1606386515-5641404.jpeg",
+//     title: "Everest Spices",
+//   },
+//   {
+//     src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
+//     title: "Noodles",
+//   },
+//   {
+//     src: "https://img1.exportersindia.com/product_images/bc-full/2020/11/7759953/everest-spices-1606386515-5641404.jpeg",
+//     title: "Everest Spices",
+//   },
+//   {
+//     src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
+//     title: "Noodles",
+//   },
+//   // Add more categories as needed
+// ];
+
+// const fadeInAnimationVariants = {
+//   initial: {
+//     opacity: 0,
+//     y: 60,
+//   },
+//   animate: (index: number) => ({
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       delay: 0.05 * index,
+//     },
+//   }),
+// };
+
+// const SectioncategoryLayout = () => {
+//   return (
+//     <section className="py-16 lg:mx-[10%] lg:py-24 ">
+//       <div className="container mx-auto px-4">
+//         <SectionTitle
+//           // subtitle="Truly Indian"
+//           sectionClasses="mx-auto max-w-xl text-center mb-12"
+//           titleClasses="mb-3 text-center "
+//           subtitleClasses="text-md font-large "
+//         >
+//           Wide Range Of Categories
+//         </SectionTitle>
+//         <div className="2xl:grid-cols-8 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 ">
+//           {iconBoxes.map((iconBox, index) => (
+//             <motion.div
+//               key={iconBox.title}
+//               variants={fadeInAnimationVariants}
+//               initial="initial"
+//               whileInView="animate"
+//               viewport={{ once: true }}
+//               custom={index}
+//             >
+//               <div className="rounded-lg bg-white p-4 shadow-sm transition-shadow duration-300 hover:scale-105 hover:shadow-lg">
+//                 <div className="flex flex-col items-center justify-center text-center">
+//                   <img
+//                     src={iconBox.src}
+//                     alt={iconBox.title}
+//                     className="mb-2 h-24 w-auto max-w-full rounded-xl object-contain"
+//                   />
+//                   <h3 className="text-sm font-semibold dark:text-black">
+//                     {iconBox.title}
+//                   </h3>
+//                 </div>
+//               </div>
+//             </motion.div>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default SectioncategoryLayout;
+
 import { motion } from "framer-motion";
 import SectionTitle from "./sections/section-title";
 
 export const iconBoxes = [
   {
-    src: "https://img1.exportersindia.com/product_images/bc-full/2020/11/7759953/everest-spices-1606386515-5641404.jpeg",
-    title: "Everest Spices",
+    src: "category-1.jpg",
+    title: "Egg",
   },
   {
-    src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
-    title: "Noodles",
+    src: "category-2.jpg",
+    title: "Vegetable",
   },
   {
-    src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
-    title: "Mix Farsan",
+    src: "category-3.jpg",
+    title: "Fruits",
   },
   {
-    src: "https://tse4.mm.bing.net/th?id=OIP.BM-LStUWJ5TjQHIcD2pQ_QHaFj&pid=Api&P=0&h=180",
-    title: "Lay's",
+    src: "category-4.jpg",
+    title: "Chips",
   },
   {
-    src: "https://wallpapercave.com/wp/wp2422343.jpg",
+    src: "category-5.jpg",
+    title: "IceCream",
+  },
+  {
+    src: "category-6.jpg",
+    title: "Oil",
+  },
+  {
+    src: "category-7.jpg",
+    title: "Atta",
+  },
+  {
+    src: "category-8.jpg",
+    title: "Shampoo",
+  },
+  {
+    src: "category-9.jpg",
     title: "Biscuits",
   },
   {
-    src: "https://tse3.mm.bing.net/th?id=OIP.WV4itkdFHeRl-MJ1ITmu9wHaE8&pid=Api&P=0&h=180",
-    title: "Mix Farsan",
+    src: "category-10.jpg",
+    title: "Masala",
   },
   {
-    src: "https://tse4.mm.bing.net/th?id=OIP.BM-LStUWJ5TjQHIcD2pQ_QHaFj&pid=Api&P=0&h=180",
-    title: "Lay's",
+    src: "category-11.jpg",
+    title: "Cold Drink",
   },
   {
-    src: "https://wallpapercave.com/wp/wp2422343.jpg",
-    title: "Biscuits",
-  },
-  {
-    src: "https://img1.exportersindia.com/product_images/bc-full/2020/11/7759953/everest-spices-1606386515-5641404.jpeg",
-    title: "Everest Spices",
-  },
-  {
-    src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
-    title: "Noodles",
-  },
-  {
-    src: "https://img1.exportersindia.com/product_images/bc-full/2020/11/7759953/everest-spices-1606386515-5641404.jpeg",
-    title: "Everest Spices",
-  },
-  {
-    src: "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg",
-    title: "Noodles",
+    src: "category-12.jpg",
+    title: "Tea Powder",
   },
   // Add more categories as needed
 ];
