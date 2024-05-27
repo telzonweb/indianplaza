@@ -178,35 +178,34 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 
 // Import images from the project folder
-import brand1 from '@/brandimg/img-1.jpg';
-import brand2 from '@/brandimg/dairy_milk.png';
-import brand3 from '@/brandimg/img-2.jpg';
-import brand4 from '@/brandimg/img-4.webp';
-import brand5 from '@/brandimg/img-5.png';
-import brand6 from '@/brandimg/img-1.jpg';
-import brand7 from '@/brandimg/dairy_milk.png';
-import brand8 from '@/brandimg/img-2.jpg';
-import brand9 from '@/brandimg/img-4.webp';
-import brand10 from '@/brandimg/img-5.png';
-import brand11 from '@/brandimg/img-6.png'
+// import brand1 from '@/brandimg/img-1.jpg';
+// import brand2 from '@/brandimg/dairy_milk.png';
+// import brand3 from '@/brandimg/img-2.jpg';
+// import brand4 from '@/brandimg/img-4.webp';
+// import brand5 from '@/brandimg/img-5.png';
+// import brand6 from '@/brandimg/img-1.jpg';
+// import brand7 from '@/brandimg/dairy_milk.png';
+// import brand8 from '@/brandimg/img-2.jpg';
+// import brand9 from '@/brandimg/img-4.webp';
+// import brand10 from '@/brandimg/img-5.png';
+// import brand11 from '@/brandimg/img-6.png'
 
 // Add more imports as needed
 
 const brands = [
-  { src: brand1, alt: 'Brand 1' },
-  { src: brand2, alt: 'Brand 2' },
-  { src: brand3, alt: 'Brand 3' },
-  { src: brand4, alt: 'Brand 1' },
-  { src: brand5, alt: 'Brand 2' },
-  { src: brand6, alt: 'Brand 3' },
-  { src: brand7, alt: 'Brand 1' },
-  { src: brand8, alt: 'Brand 2' },
-  { src: brand9, alt: 'Brand 3' },
-  { src: brand10, alt: 'Brand 3' },
-
+  { src: '/brandimg/img-1.jpg', alt: 'Brand 1' },
+  { src: '/brandimg/dairy_milk.png', alt: 'Brand 2' },
+  { src: '/brandimg/img-2.jpg', alt: 'Brand 3' },
+  { src: '/brandimg/img-4.webp', alt: 'Brand 4' },
+  { src: '/brandimg/img-5.png', alt: 'Brand 5' },
+  { src: '/brandimg/img-1.jpg', alt: 'Brand 6' },
+  { src: '/brandimg/dairy_milk.png', alt: 'Brand 7' },
+  { src: '/brandimg/img-2.jpg', alt: 'Brand 8' },
+  { src: '/brandimg/img-4.webp', alt: 'Brand 9' },
+  { src: '/brandimg/img-5.png', alt: 'Brand 10' },
+  { src: '/brandimg/img-6.png', alt: 'Brand 11' },
   // Add more images to this array
 ];
-
 function SwiperBrand() {
   return (
     <Swiper
@@ -238,12 +237,9 @@ function SwiperBrand() {
         },
       }}
     >
-       <SwiperSlide>
-        <img src={brand11} alt="Brand 1" className="w-full h-auto" />
-      </SwiperSlide>
-      {brands.map((brand, index) => (
+       {brands.map((brand, index) => (
         <SwiperSlide key={index}>
-          <img src={brand.src} alt={brand.alt} className="w-full h-auto" />
+          <img src={brand.src} alt={brand.alt} className="w-full h-32 object-contain" />
         </SwiperSlide>
       ))}
     </Swiper>
