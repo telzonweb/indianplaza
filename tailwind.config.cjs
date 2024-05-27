@@ -46,6 +46,7 @@ module.exports = {
       Libre: ["Libre Baskerville", "serif"],
       italiana: ["Italiana", "serif"],
       worksans: ["Work Sans", "sans-serif"],
+      satisfy: ["Kalam", "cursive"],
     },
     extend: {
       colors: {
