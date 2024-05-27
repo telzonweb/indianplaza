@@ -65,7 +65,7 @@ export const statistics = [
   },
   {
     number: "10+",
-    title: "special Offers",
+    title: "Special Offers",
   },
 ];
 

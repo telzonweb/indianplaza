@@ -3,7 +3,7 @@ import "@/components/style.css"; // Assuming you have a separate CSS file
 
 const Paragraph = () => {
   return (
-    <section className="custom-section pl-12 pr-10 pt-12 text-lg">
+    <section className="custom-section pl-12 pr-10 pt-12 text-lg mt-10">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row">
           {/* <div className="md:w-1/2 w-full custom-image md:mr-8 mb-8 md:mb-0">
@@ -23,7 +23,7 @@ const Paragraph = () => {
           </div>
 
           <div className="custom-content w-full md:w-1/2">
-            <h2 className="mb-4 text-2xl font-bold">Indian Plaza</h2>
+            <h2 className="mb-4 text-2xl font-bold">Indian Plaza Grocery Store</h2>
             <p className="mb-4">
             Welcome to our Indian grocery store, where every shelf holds more than just ingredients; it cradles stories of home, whispers of nostalgia, and the warmth of tradition. With each spice jar, every grain of rice, and the scent of freshly ground masalas, we invite you to embark on a journey through the flavors of India.
             </p>
