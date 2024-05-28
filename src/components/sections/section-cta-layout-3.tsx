@@ -18,25 +18,24 @@ const SectionCTALayout3 = () => {
             <div className="relative overflow-hidden rounded-xl px-6 py-20 text-center shadow-sm dark:shadow-slate-950/40">
               <img
                 src="hero/gradient_creative.png"
-                className="dark:hidden absolute w-full h-full inset-0"
+                className="absolute inset-0 h-full w-full dark:hidden"
                 sizes="100vw"
                 alt="consulting hero gradient"
               />
               <img
                 src="hero/gradient_creative_dark.png"
-                className="hidden dark:block absolute w-full h-full inset-0"
+                className="absolute inset-0 hidden h-full w-full dark:block"
                 alt="consulting hero gradient"
               />
               <div className="relative mx-auto max-w-md">
-                <h2 className="mb-4">
-                  Would you like some help getting started?
-                </h2>
+                <h2 className="mb-4">Shop with Us Today</h2>
                 <p className="mb-8 text-lg">
-                  Our support heroes will have you up and running in less than
-                  10mins.
+                  Discover the best of Indian groceries and more, right here in
+                  Australia. Our team is ready to assist you with any questions
+                  or needs you might have.
                 </p>
                 <Link to="/contact">
-                  <Button size="lg">Let’s Work Together</Button>
+                  <Button size="lg">Visit Stores</Button>
                 </Link>
               </div>
             </div>
