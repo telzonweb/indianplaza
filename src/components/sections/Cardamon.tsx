@@ -10,7 +10,7 @@ export const Cardamon = () => {
         titleClasses="mb-3 text-center "
         subtitleClasses="text-md font-large "
       >
-       The Essence of Cardamom
+        The Essence of Cardamom
       </SectionTitle>
 
       <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[7%] lg:p-6">
@@ -18,7 +18,7 @@ export const Cardamon = () => {
           <h1 className="mb-4 font-Libre text-3xl font-bold">
             Cardamom: The Jewel of India's Heritage
           </h1>
-          <p className="font-satisfy mb-6 text-lg text-[#000]">
+          <p className="mb-6 font-satisfy text-lg text-[#000]">
             From the lush forests of India, cardamom shines as the "Queen of
             Spices." Treasured for centuries, its aromatic pods enrich our
             cuisine and traditions. From Ayurvedic practices to culinary
@@ -31,8 +31,12 @@ export const Cardamon = () => {
         </button> */}
         </div>
         <div className="flex items-center justify-center md:w-1/2  lg:h-[90vh] ">
-          <img
+          {/* <img
             src="https://img.freepik.com/free-photo/flat-lay-bowl-with-seeds_23-2148917702.jpg?t=st=1716458947~exp=1716462547~hmac=64efc2cedcb2b1b5cbd253e6afb79ffdfd5e96e679bcfa3810be9737d4794730&w=740"
+            className="h-full w-full  rounded-lg object-cover"
+          /> */}
+          <img
+            src="/mainImages/cardamom.jpg"
             className="h-full w-full  rounded-lg object-cover"
           />
         </div>
