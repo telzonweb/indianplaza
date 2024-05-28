@@ -2,27 +2,25 @@ import { motion } from "framer-motion";
 
 export const iconBoxes = [
   {
-    src:"https://img.freepik.com/free-photo/front-view-vegetable_140725-103355.jpg?t=st=1716269509~exp=1716273109~hmac=64ee2e0c76a720f10b2d553814e286974b9f1fe316819cd65e6809a128ca44be&w=996",
+    src: "aboutimg/offer-1.jpg",
     title: "Fresh Produce",
-    // description:
-    //   "Handpicked fruits and vegetables delivered daily to guarantee peak freshness and flavor.",
+    description: "", // Placeholder for future descriptions
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#00FF00]",
   },
   {
-    src:"https://img.freepik.com/premium-photo/homemade-oatmeal-cookies-with-nuts-raisins-glass-milk-dark-wooden-background_132024-258.jpg?w=996",
+    src: "aboutimg/offer-2.jpg", // Renamed the file for consistency
     title: "Dairy & Bakery",
-    // description:
-    //   "Freshly baked bread, pastries, and a variety of dairy products, including organic and lactose-free choices.",
+    description: "", // Placeholder for future descriptions
     shadow: "shadow-[0_1px_6px_rgba(255,165,0,.15),0_5px_0_0_#ffef00]",
   },
   {
-    src:"https://img.freepik.com/premium-photo/healthy-vegan-ingredients-cooking-various-clean-vegetables-herbs-marble-background-products-from-market-without-plastic-flat-lay_86156-69.jpg?w=996",
+    src: "aboutimg/offer-3.jpg", // Renamed the file for consistency
     title: "Health & Wellness",
-    // description:
-    //   "Organic, gluten-free, and vegan products to support your healthy lifestyle.",
+    description: "", // Placeholder for future descriptions
     shadow: "shadow-[0_1px_6px_rgba(255,182,193,.15),0_5px_0_0_#4C86E7]",
   },
 ];
+
 
 const fadeInAnimationVariants = {
   initial: {
