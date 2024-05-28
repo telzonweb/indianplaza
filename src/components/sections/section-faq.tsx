@@ -201,10 +201,6 @@ const SectionFAQ = () => {
               }}
             >
               <h2>Frequently Asked Questions</h2>
-              <p className="mb-8 text-lg">
-                The most comprehensive complete-system warranty in the solar
-                industry. Hassle-free replacement, repair or reimbursement.
-              </p>
               <Accordion
                 type="multiple"
                 defaultValue={[accordionItems[0].title]}
