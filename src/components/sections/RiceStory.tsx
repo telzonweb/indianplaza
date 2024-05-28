@@ -5,12 +5,12 @@ const RiceStory = () => {
   return (
     <div className="lg:p-10">
       <SectionTitle
-        subtitle="Truly Indian"
+        subtitle=" Exploring the World of Rice"
         sectionClasses="mx-auto max-w-xl text-center mb-12"
         titleClasses="mb-3 text-center "
         subtitleClasses="text-md font-large "
       >
-        Our Roots
+       The Versatile Grain
       </SectionTitle>
 
       <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[7%] lg:p-6">

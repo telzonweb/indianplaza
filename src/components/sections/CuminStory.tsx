@@ -5,12 +5,12 @@ const CuminStory = () => {
   return (
     <div className="lg:p-10">
       <SectionTitle
-        subtitle="Truly Indian"
+        subtitle="Taste, Tradition, and Wellness"
         sectionClasses="mx-auto mt-10 max-w-xl text-center mb-12"
         titleClasses="mb-3 text-center "
         subtitleClasses="text-md font-large "
       >
-        Our Roots
+       Exploring Cumin
       </SectionTitle>
       <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[7%] lg:p-6">
         <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-20 ">
