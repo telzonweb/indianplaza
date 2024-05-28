@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useId } from "react";
 import { SVGProps } from "react";
-import svgImg from "/promo_img_1.jpg"
+// import svgImg from "/promo_img_1.jpg"
 
 const PromoTriangle = (props: SVGProps<SVGSVGElement>) => {
   const patternId = useId();
@@ -15,7 +15,7 @@ const PromoTriangle = (props: SVGProps<SVGSVGElement>) => {
         delay: 0.5,
         duration: 0.5,
       }}
-      className="-z-[1] relative"
+      className="relative -z-[1]"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,11 @@ const PromoTriangle = (props: SVGProps<SVGSVGElement>) => {
             height={600}
             patternUnits="userSpaceOnUse"
           >
-            <image xlinkHref={svgImg} width={600} height={600} />
+            <image
+              xlinkHref="/mainImages/about.sectionHeading.jpg"
+              width={600}
+              height={600}
+            />
           </pattern>
         </defs>
       </svg>
