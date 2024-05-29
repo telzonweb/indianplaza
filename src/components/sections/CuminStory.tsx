@@ -6,7 +6,7 @@ const CuminStory = () => {
     <div className="lg:p-10">
       <SectionTitle
         subtitle="Taste, Tradition, and Wellness"
-        sectionClasses="mx-auto mt-10 max-w-xl text-center mb-12"
+        sectionClasses="mx-auto  max-w-xl text-center "
         titleClasses="mb-3 text-center "
         subtitleClasses="text-md font-large "
       >
