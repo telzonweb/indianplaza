@@ -30,7 +30,7 @@ export const Cardamon = () => {
           Find Your Local Store
         </button> */}
         </div>
-        <div className="flex items-center justify-center md:w-1/2  lg:h-[90vh] ">
+        <div className="flex items-center justify-center md:w-1/2  lg:h-[70vh] ">
           {/* <img
             src="https://img.freepik.com/free-photo/flat-lay-bowl-with-seeds_23-2148917702.jpg?t=st=1716458947~exp=1716462547~hmac=64efc2cedcb2b1b5cbd253e6afb79ffdfd5e96e679bcfa3810be9737d4794730&w=740"
             className="h-full w-full  rounded-lg object-cover"

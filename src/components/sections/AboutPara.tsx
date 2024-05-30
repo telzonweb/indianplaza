@@ -1,30 +1,30 @@
 import React from "react";
 import SectionTitle from "./section-title";
 
-const CuminStory = () => {
+const AboutPara = () => {
   return (
     <div className="lg:p-10">
       <SectionTitle
-        subtitle="Taste, Tradition, and Wellness"
+        subtitle="Where Tradition Meets Service"
         sectionClasses="mx-auto  max-w-xl text-center "
         titleClasses="mb-3 text-center "
         subtitleClasses="text-md font-large "
       >
-        Exploring Cumin
+        About Indian Plaza
       </SectionTitle>
       <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[7%] lg:p-6">
         <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-10 ">
-          <h1 className="mb-4 font-Libre text-3xl font-bold">
-            Cumin: The Spice of India's Legacy
-          </h1>
+          <h1 className="mb-4 font-Libre text-3xl font-bold">Indian Plaza</h1>
           <p className=" mb-6 font-satisfy text-lg text-[#000]">
-            From the heart of India's vibrant fields, cumin seeds capture the
-            essence of our rich heritage. Infusing flavor into every dish, these
-            tiny seeds carry centuries of tradition, connecting past and
-            present. Each seed tells a story of ancient culinary artistry and
-            medicinal wisdom, integral to our culture. Celebrate the spice that
-            embodies the warmth, depth, and richness of Indian heritage, uniting
-            generations through its unmistakable aroma and taste.
+            Indian Plaza is a beloved grocery store chain in Australia,
+            dedicated to bringing a slice of India to your doorstep.
+            Specializing in authentic Indian groceries and products, we strive
+            to fulfill the needs and nostalgia of the Indian community. With a
+            deep-rooted commitment to quality and tradition, Indian Plaza
+            ensures you feel connected to your homeland, offering everything
+            from spices and snacks to daily essentials. Let us be your trusted
+            partner in recreating the flavors and memories of India, right here
+            in Australia.
           </p>
 
           {/* <button className=" hover:bg-green-700 bg-green-800 rounded px-4 py-2 text-white">
@@ -38,7 +38,7 @@ const CuminStory = () => {
             className="h-full w-full  rounded-lg object-cover"
           /> */}
           <img
-            src="/mainImages/cumin.jpg"
+            src="/aboutimg/aboutImg.jpg"
             alt="Promotional Product"
             className="h-full w-full  rounded-lg object-cover"
           />
@@ -48,4 +48,4 @@ const CuminStory = () => {
   );
 };
 
-export default CuminStory;
+export default AboutPara;

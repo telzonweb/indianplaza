@@ -14,7 +14,7 @@ export const WheatStory = () => {
       </SectionTitle>
 
       <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[7%] lg:p-6">
-        <div className="flex items-center justify-center md:w-1/2  lg:h-[90vh] ">
+        <div className="flex items-center justify-center md:w-1/2  lg:h-[70vh] ">
           {/* <img
             src="https://img.freepik.com/free-photo/sunset-golden-wheat-field-nature-bountiful-harvest-generated-by-artificial-intelligence_25030-60668.jpg?t=st=1716796861~exp=1716800461~hmac=cb547bbfc43ed4715fdba186c5890a726d2d7d779d149d4e079d776ae9e111a4&w=826"
             className="h-full w-full  rounded-lg object-cover"
@@ -24,7 +24,7 @@ export const WheatStory = () => {
             className="h-full w-full  rounded-lg object-cover"
           />
         </div>
-        <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-20 ">
+        <div className="lg:py-15 relative z-10  h-auto rounded-lg bg-[#ffd9a191]  p-5 md:w-1/2 lg:p-10 lg:px-16 ">
           <h1 className="mb-4 font-Libre text-3xl font-bold">
             Wheat: The Golden Harvest of India's Heart
           </h1>

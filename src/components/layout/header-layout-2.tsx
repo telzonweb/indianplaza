@@ -24,7 +24,9 @@ const HeaderLayout2 = () => {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
       windowHeight > 10
-        ? setStickyClass("bg-white dark:bg-slate-900 lg:py-3 py-3 ")
+        ? setStickyClass(
+            "bg-white dark:bg-slate-900 lg:py-3 py-3 bg-[#FFF9F1] border",
+          )
         : setStickyClass("");
     }
   };
@@ -32,7 +34,7 @@ const HeaderLayout2 = () => {
   return (
     <>
       {/* <header className="fixed top-0 z-20 w-full "> */}
-      <header className="sticky top-0  z-20 w-full ">
+      <header className="sticky top-0  z-20 w-full   border-b-2  bg-[#FFF9F1]">
         <div
           className={cn(
             "flex items-center px-4 py-5 transition-all lg:py-6 xl:px-20",

@@ -7,6 +7,8 @@ import SectionCTALayout4 from "@/components/sections/section-cta-layout-4";
 import { Helmet } from "react-helmet";
 import Paragraph from "@/components/Paragraph";
 import AboutOffer from "@/components/sections/about-offer";
+import CuminStory from "@/components/sections/CuminStory";
+import AboutPara from "@/components/sections/AboutPara";
 
 const About = useFramerTransition(
   <>
@@ -15,10 +17,11 @@ const About = useFramerTransition(
     </Helmet>
     <main className="relative">
       <SectionPageTitle>About</SectionPageTitle>
-      <Paragraph />
+      <AboutPara />
+      {/* <Paragraph /> */}
       {/* <SectionChecklist /> */}
       <SectionStats />
-      <AboutOffer/>
+      <AboutOffer />
       {/* <SectionTeam /> */}
       <SectionCTALayout4 />
     </main>
