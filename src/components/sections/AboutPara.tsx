@@ -13,7 +13,7 @@ const AboutPara = () => {
         About Indian Plaza
       </SectionTitle>
       <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[7%] lg:p-6">
-        <div className="relative z-10 h-auto  rounded-lg bg-[#ffd9a191] p-5 md:w-1/2 lg:p-10 lg:px-16 lg:py-10 ">
+        <div className="relative self-center rounded-2xl bg-[#ffd9a1] p-5 shadow-lg md:w-1/2 lg:mr-[-40px]  lg:px-10 lg:py-8">
           <h1 className="mb-4 font-Libre text-3xl font-bold">Indian Plaza</h1>
           <p className=" mb-6 font-satisfy text-lg text-[#000]">
             Indian Plaza is a beloved grocery store chain in Australia,
@@ -31,7 +31,7 @@ const AboutPara = () => {
           Find Your Local Store
         </button> */}
         </div>
-        <div className="flex items-center justify-center md:w-1/2  lg:h-[70vh] ">
+        <div className="flex items-center justify-center md:w-1/2  lg:h-[80vh] ">
           {/* <img
             src="https://img.freepik.com/free-photo/seeds-jar-arrangement_23-2148917706.jpg?t=st=1716359355~exp=1716362955~hmac=b8c8e39e66dde4e3225b0808eaffc710d24565ffbc4693d6f95e60f426cd5bda&w=360"
             alt="Promotional Product"
@@ -40,7 +40,7 @@ const AboutPara = () => {
           <img
             src="/aboutimg/aboutImg.jpg"
             alt="Promotional Product"
-            className="h-full w-full  rounded-lg object-cover"
+            className="h-full w-full  rounded-xl object-cover"
           />
         </div>
       </div>
