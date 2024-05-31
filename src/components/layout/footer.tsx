@@ -50,12 +50,16 @@ const Footer = () => {
                 Our Outlet
               </h2>
               <ul className="space-y-4 text-sm text-black">
+              <li>
+                  <span className="block leading-6">
+                  431-435 Main North Rd ENFIELD, SA 5085
+                  </span>
+                </li>
                 <li>
                   <span className="block leading-6">
                     1/161 Glynburn Rd, FIRLE, SA 5070
                   </span>
                 </li>
-                
                 <li>
                   <span className="block leading-6">
                     Indian Traders 345 Anzac Hwy, PLYMPTON, SA 5038
