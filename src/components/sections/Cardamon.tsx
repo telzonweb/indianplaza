@@ -19,11 +19,16 @@ export const Cardamon = () => {
             Cardamom: The Jewel of India's Heritage
           </h1>
           <p className="mb-6 font-satisfy text-lg text-[#000]">
-            From the lush forests of India, cardamom shines as the "Queen of
+            {/* From the lush forests of India, cardamom shines as the "Queen of
             Spices." Treasured for centuries, its aromatic pods enrich our
             cuisine and traditions. From Ayurvedic practices to culinary
             delights, cardamom embodies health and flavor, encapsulating the
-            elegance and depth of India's heritage with its timeless allure.
+            elegance and depth of India's heritage with its timeless allure. */}
+            From the lush forests of India, cardamom, the "Queen of Spices," has
+            been treasured for centuries. Its aromatic pods enrich our cuisine
+            and traditions, from Ayurvedic practices to culinary delights.
+            Cardamom embodies health and flavor, capturing the elegance and
+            depth of India's heritage with its timeless allure and unique taste.
           </p>
 
           {/* <button className=" hover:bg-green-700 bg-green-800 rounded px-4 py-2 text-white">
