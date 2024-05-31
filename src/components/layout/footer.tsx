@@ -38,7 +38,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faFacebook} width={15} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/indianplaza/"
                   className="mb-2 flex h-10 w-10 items-center justify-center rounded-xl bg-[#cd201f] text-white transition-colors hover:bg-foreground hover:text-white"
                 >
                   <FontAwesomeIcon icon={faInstagram} width={15} />
