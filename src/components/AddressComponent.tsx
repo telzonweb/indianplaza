@@ -81,12 +81,6 @@ export const SectionAddresses = [
     buttonLink: "https://www.google.co.in/maps",
   },
   {
-    title: "Torrensville",
-    address: "224 Henley Beach Rd TORRENSVILLE, 5031",
-    buttonText: "Get Directions",
-    buttonLink: "https://www.google.co.in/maps",
-  },
-  {
     title: "Plympton",
     address: "Indian Traders 345 Anzac Hwy PLYMPTON, SA 5038",
     buttonText: "Get Directions",
@@ -106,7 +100,7 @@ const AddressComponent = () => {
         >
           Visit Us
         </SectionTitle>
-        <div className="my-10 grid grid-cols-1 gap-8 text-center md:grid-cols-2 lg:grid-cols-4">
+        <div className="my-10 grid grid-cols-1 gap-8 text-center md:grid-cols-2 lg:grid-cols-3">
           {SectionAddresses.map((address, index) => (
             <div
               key={index}
