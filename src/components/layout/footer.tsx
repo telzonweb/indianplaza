@@ -55,11 +55,7 @@ const Footer = () => {
                     1/161 Glynburn Rd, FIRLE, SA 5070
                   </span>
                 </li>
-                <li>
-                  <span className="block leading-6">
-                    224 Henley Beach Rd, TORRENSVILLE, SA 5031
-                  </span>
-                </li>
+                
                 <li>
                   <span className="block leading-6">
                     Indian Traders 345 Anzac Hwy, PLYMPTON, SA 5038
