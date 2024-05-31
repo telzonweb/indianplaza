@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./section-title";
 
-export const Cardamon = () => {
+export const SampleStyle = () => {
   return (
     <div className="lg:p-10">
       <SectionTitle
@@ -14,11 +14,11 @@ export const Cardamon = () => {
       </SectionTitle>
 
       <div className="relative mx-[5%] flex flex-col gap-1 rounded-xl shadow-sm md:flex-row lg:mx-[7%] lg:p-6">
-        <div className="relative self-center rounded-2xl bg-[#ffd9a1] p-5 shadow-lg md:w-1/2 lg:mr-[-40px]  lg:px-10 lg:py-8 ">
+        <div className="relative self-center rounded-2xl bg-[#ffd9a1] p-5 shadow-lg md:w-1/2 lg:mr-[-40px]  lg:px-10 lg:py-8">
           <h1 className="mb-4 font-Libre text-3xl font-bold">
             Cardamom: The Jewel of India's Heritage
           </h1>
-          <p className="mb-6 font-satisfy text-lg text-[#000]">
+          <p className="my-6 font-satisfy text-lg text-[#000]">
             {/* From the lush forests of India, cardamom shines as the "Queen of
             Spices." Treasured for centuries, its aromatic pods enrich our
             cuisine and traditions. From Ayurvedic practices to culinary

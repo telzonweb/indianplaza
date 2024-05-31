@@ -9,6 +9,7 @@ import Paragraph from "@/components/Paragraph";
 import AboutOffer from "@/components/sections/about-offer";
 import CuminStory from "@/components/sections/CuminStory";
 import AboutPara from "@/components/sections/AboutPara";
+import { SampleStyle } from "@/components/sections/SampleStyle";
 
 const About = useFramerTransition(
   <>
@@ -18,6 +19,7 @@ const About = useFramerTransition(
     <main className="relative">
       <SectionPageTitle>About</SectionPageTitle>
       <AboutPara />
+      {/* <SampleStyle /> */}
       {/* <Paragraph /> */}
       {/* <SectionChecklist /> */}
       <SectionStats />
